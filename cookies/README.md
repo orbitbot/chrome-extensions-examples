@@ -4,7 +4,7 @@ Cookie API Test Extension
 
 Testing Cookie API
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/cookies.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/cookies.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

@@ -4,7 +4,7 @@ Merge Windows
 
 Merges all of the browser's windows into the current window
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/windows/merge_windows.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/windows/merge_windows.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

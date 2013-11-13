@@ -4,7 +4,7 @@ Sample - OAuth Contacts
 
 Uses OAuth to connect to Google's contacts service and display a list of your contacts.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/oauth_contacts.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/oauth_contacts.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

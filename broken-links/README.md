@@ -4,7 +4,7 @@ Broken Links
 
 Extends the Developer Tools, adding an audit category that finds broken links on the inspected page.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/devtools/audits/broken-links.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/devtools/audits/broken-links.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

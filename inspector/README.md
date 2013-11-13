@@ -4,7 +4,7 @@ Tab Inspector
 
 Utility for working with the extension tabs api
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/tabs/inspector.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/tabs/inspector.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

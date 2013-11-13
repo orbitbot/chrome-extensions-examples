@@ -4,7 +4,7 @@ Chrome Preprocessor Example
 
 Simple hello-world example for chrome.devtools.inspectedWindow.reload() using preprocessor.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/devtools/inspectedWindow/chrome-preprocessor.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/devtools/inspectedWindow/chrome-preprocessor.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

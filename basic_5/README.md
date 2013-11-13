@@ -4,7 +4,7 @@ Test IME
 
 A simple IME that converts all keystrokes to upper case.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/input.ime/basic.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/input.ime/basic.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

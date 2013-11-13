@@ -4,7 +4,7 @@ News Reader (by Google)
 
 Displays the latest stories from Google News in a popup.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/news.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/news.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

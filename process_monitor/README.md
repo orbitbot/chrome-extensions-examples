@@ -4,7 +4,7 @@ Process Monitor
 
 Adds a browser action that monitors resource usage of all browser processes.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/processes/process_monitor.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/processes/process_monitor.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

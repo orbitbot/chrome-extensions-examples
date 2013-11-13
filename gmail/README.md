@@ -4,7 +4,7 @@ Google Mail Checker
 
 Displays the number of unread messages in your Google Mail inbox. You can also click the button to open your inbox.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/gmail.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/gmail.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

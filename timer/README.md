@@ -4,7 +4,7 @@ Message Timer
 
 Times how long it takes to send a message to a content script and back.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/messaging/timer.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/messaging/timer.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

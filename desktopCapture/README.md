@@ -4,7 +4,7 @@ Desktop Capture Example
 
 Show desktop media picker UI
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/desktopCapture.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/desktopCapture.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

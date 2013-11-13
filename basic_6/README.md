@@ -4,7 +4,7 @@ Top Sites
 
 Shows the top sites in a browser action
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/topsites/basic.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/topsites/basic.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

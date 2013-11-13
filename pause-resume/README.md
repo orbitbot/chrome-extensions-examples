@@ -4,7 +4,7 @@ JavaScript pause/resume
 
 Pauses / resumes JavaScript execution
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/debugger/pause-resume.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/debugger/pause-resume.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

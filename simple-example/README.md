@@ -4,7 +4,7 @@ Omnibox Example
 
 To use, type 'omnix' plus a search term into the Omnibox.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/omnibox/simple-example.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/omnibox/simple-example.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

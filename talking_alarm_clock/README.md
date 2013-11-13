@@ -4,7 +4,7 @@ Talking Alarm Clock
 
 A clock with two configurable alarms that will play a sound and speak a phrase of your choice.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/talking_alarm_clock.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/talking_alarm_clock.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

@@ -4,7 +4,7 @@ Per-plugin content settings
 
 Customize your content setting for different plug-ins.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/plugin_settings.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/plugin_settings.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

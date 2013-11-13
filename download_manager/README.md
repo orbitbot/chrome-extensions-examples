@@ -4,7 +4,7 @@ Download Manager Button
 
 Browser Action Download Manager User Interface for Google Chrome
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_manager.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_manager.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

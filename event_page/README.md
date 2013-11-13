@@ -4,7 +4,7 @@ Context Menus Sample (with Event Page)
 
 Shows some of the features of the Context Menus API using an event page
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/contextMenus/event_page.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/contextMenus/event_page.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

@@ -4,7 +4,7 @@ Proxy Extension API Sample
 
 Set Chrome-specific proxies; a demonstration of Chrome's Proxy API
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/proxy_configuration.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/proxy_configuration.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

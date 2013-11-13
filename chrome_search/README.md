@@ -4,7 +4,7 @@ Chromium Search
 
 Add support to the omnibox to search the Chromium source code.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/chrome_search.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/chrome_search.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

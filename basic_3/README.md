@@ -4,7 +4,7 @@ My Devices
 
 A browser action with a popup dump of all devices signed into the same account as the current profile.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/deviceInfo/basic.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/deviceInfo/basic.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

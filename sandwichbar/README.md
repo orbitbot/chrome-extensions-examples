@@ -4,7 +4,7 @@ SandwichBar
 
 Shows an infobar on pages which contain the word 'sandwich'
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/infobars/sandwichbar.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/infobars/sandwichbar.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

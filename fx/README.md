@@ -4,7 +4,7 @@ Chrome Sounds
 
 Enjoy a more magical and immersive experience when browsing the web using the power of sound.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/fx.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/fx.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

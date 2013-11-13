@@ -4,7 +4,7 @@ Top Chrome Extension Questions
 
 Sample demonstration of the optional permissions API.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/permissions/extension-questions.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/permissions/extension-questions.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

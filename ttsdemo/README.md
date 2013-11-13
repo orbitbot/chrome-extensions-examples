@@ -4,7 +4,7 @@ TTS Demo
 
 Demo Chrome's synthesized text-to-speech capabilities.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/ttsdemo.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/ttsdemo.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

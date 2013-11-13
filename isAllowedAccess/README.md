@@ -4,7 +4,7 @@
 
 Demonstrates the `extension.isAllowedFileSchemeAccess` and `extesion.isAllowedIncognitoAccess` APIs
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/extension/isAllowedAccess.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/extension/isAllowedAccess.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

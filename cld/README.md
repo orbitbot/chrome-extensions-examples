@@ -4,7 +4,7 @@ CLD
 
 Displays the language of a tab
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/i18n/cld.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/i18n/cld.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

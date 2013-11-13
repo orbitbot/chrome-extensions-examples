@@ -4,7 +4,7 @@ Imageinfo
 
 Get image info for images, including EXIF data
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/imageinfo.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/imageinfo.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

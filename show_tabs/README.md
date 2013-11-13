@@ -4,7 +4,7 @@ Show Tabs in Process
 
 Adds a browser action showing which tabs share the current tab's process.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/processes/show_tabs.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/processes/show_tabs.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

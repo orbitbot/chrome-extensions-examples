@@ -4,7 +4,7 @@ Download and Open Button
 
 Download and Open Context Menu Button
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_open.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_open.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

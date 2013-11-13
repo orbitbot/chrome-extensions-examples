@@ -4,7 +4,7 @@ Google Calendar Checker (by Google)
 
 Quickly see the time until your next meeting from any of your calendars. Click on the button to be taken to your calendar.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/calendar.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/calendar.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

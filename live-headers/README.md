@@ -4,7 +4,7 @@ Live HTTP headers
 
 Displays the live log with the http requests headers
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/debugger/live-headers.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/debugger/live-headers.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

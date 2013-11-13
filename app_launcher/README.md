@@ -4,7 +4,7 @@ App Launcher
 
 Get access to your apps in a browser action
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/app_launcher.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/app_launcher.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

@@ -4,7 +4,7 @@ Page Benchmarker
 
 Chromium Page Benchmarker.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/benchmark.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/benchmark.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

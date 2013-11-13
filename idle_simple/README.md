@@ -4,7 +4,7 @@ Idle - Simple Example
 
 Demonstrates the Idle API
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/idle/idle_simple.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/idle/idle_simple.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

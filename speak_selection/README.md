@@ -4,7 +4,7 @@ Speak Selection
 
 Speaks the current selection out loud.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/speak_selection.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/speak_selection.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

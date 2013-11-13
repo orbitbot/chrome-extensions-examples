@@ -4,7 +4,7 @@ Native Messaging Example
 
 Send a message to a native application.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/nativeMessaging/app.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/nativeMessaging/app.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

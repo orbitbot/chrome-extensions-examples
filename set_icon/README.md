@@ -4,7 +4,7 @@ Animated Page Action
 
 This extension adds an animated browser action to the toolbar.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/pageAction/set_icon.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/pageAction/set_icon.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

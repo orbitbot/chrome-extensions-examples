@@ -4,7 +4,7 @@ Stylizr
 
 Spruce up your pages with custom CSS.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/storage/stylizr.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/storage/stylizr.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

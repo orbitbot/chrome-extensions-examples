@@ -4,7 +4,7 @@ Google Document List Viewer
 
 Demonstrates how to use OAuth to connect the Google Documents List Data API.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/gdocs.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/gdocs.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

@@ -4,7 +4,7 @@ Email this page (by Google)
 
 This extension adds an email button to the toolbar which allows you to email the page link using your default mail client or Gmail.
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/email_this_page.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/email_this_page.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

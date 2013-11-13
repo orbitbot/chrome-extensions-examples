@@ -4,7 +4,7 @@ Download Selected Links
 
 Select links on a page and download them.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_links.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_links.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

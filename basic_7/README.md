@@ -4,7 +4,7 @@ WebNavigation Tech Demo
 
 Demonstration of the WebNavigation extension API.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/webNavigation/basic.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/webNavigation/basic.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

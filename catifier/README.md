@@ -4,7 +4,7 @@ Catifier
 
 Moar cats!
 
-[zipfile](http://developer.chrome.com/extensions/examples/extensions/catifier.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/extensions/catifier.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

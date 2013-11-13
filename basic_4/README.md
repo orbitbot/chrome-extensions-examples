@@ -4,7 +4,7 @@ Event Page Example
 
 Demonstrates usage and features of the event page
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/eventPage/basic.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/eventPage/basic.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

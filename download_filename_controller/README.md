@@ -4,7 +4,7 @@ Download Filename Controller
 
 Download Filename Controller
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_filename_controller.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/downloads/download_filename_controller.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 

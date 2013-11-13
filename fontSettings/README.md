@@ -4,7 +4,7 @@ Advanced Font Settings
 
 Customize per-script font settings.
 
-[zipfile](http://developer.chrome.com/extensions/examples/api/fontSettings.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/fontSettings.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 
