@@ -1,0 +1,18 @@
+{
+  "name": "Content Script Cross-Domain XMLHttpRequest Example",
+  "version": "2.0.0",
+  "description": "Demonstrates making cross domain requests from a content script by putting Twitter trends on Google News.",
+  "permissions": [
+    "https://api.twitter.com/*"
+  ],
+  "icons": {
+    "48" : "sample-48.png",
+    "128" : "sample-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://news.google.com/*"],
+      "js" : ["contentscript.js"]
+    }
+  ]
+}

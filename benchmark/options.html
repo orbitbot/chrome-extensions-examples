@@ -1,0 +1,298 @@
+<head>
+  <title>Page Benchmark Options</title>
+
+  <script src="jst/util.js" type="text/javascript"></script>
+  <script src="jst/jsevalcontext.js" type="text/javascript"></script>
+  <script src="jst/jstemplate.js" type="text/javascript"></script>
+  <script src="jquery/jquery-1.8.2.min.js" type="text/javascript"></script>
+  <script src="jquery/jquery.flot.min.js" type="text/javascript"></script>
+  <script src="jquery/jquery.flot.dashes.js" type="text/javascript"></script>
+  <script src="util/table2CSV.js" type="text/javascript"></script>
+  <script src="util/sorttable.js" type="text/javascript"></script>
+<style>
+body {
+  font-size: 84%;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0.75em;
+  margin: 0;
+  min-width: 45em;
+}
+
+h1 {
+  font-size: 110%;
+  font-weight: bold;
+  color: #4a8ee6;
+  letter-spacing: -1px;
+  padding: 0;
+  margin: 0;
+}
+
+div#header {
+  padding: 0.75em 1em;
+  padding-top: 0.6em;
+  padding-left: 10;
+  margin-bottom: 0.75em;
+  position: relative;
+  overflow: hidden;
+  background: #5296de;
+  background-size: 100%;
+  border: 1px solid #3a75bd;
+  border-radius: 6px;
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+div#header h1 {
+  padding-left: 37px;
+  margin: 0;
+  display: inline;
+  color: white;
+}
+div#header p {
+  font-size: 84%;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+  color: white;
+  padding-left: 0.4em;
+  display: inline;
+}
+
+table.sortable {
+  font-size: 84%;
+  table-layout: fixed;
+}
+
+table.sortable:not([class*='filtered']) tr:nth-child(even) td:not([class*='filtered']) {
+  background: #eff3ff;
+}
+
+.nobg {
+  padding: 0 0.5em;
+  vertical-align: bottom;
+  font-weight: bold;
+  color: #315d94;
+  color: black;
+  text-align: center;
+}
+
+.bg{
+  padding: 0 0.5em;
+  vertical-align: bottom;
+  font-weight: bold;
+  color: #315d94;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bg:hover {
+  background: #eff3aa;
+}
+
+.avg {
+  font-weight: bold;
+  text-align: center;
+}
+
+.data {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.bggraph {
+  white-space: nowrap;
+}
+
+.file_input
+{
+  position: absolute;
+  width: 140px;
+  height: 26px;
+  overflow: hidden;
+}
+
+.file_input_button
+{
+  width: 140px;
+  position: absolute;
+  top: 0px;
+}
+
+.file_input_hidden
+{
+  font-size: 25px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  opacity: 0;
+}
+</style>
+
+<script src="options.js">
+</script>
+
+</head>
+
+<body>
+
+<h1><div id="header">Page Benchmark Results</div></h1>
+
+<h1>Configuration <a href="https://sites.google.com/a/chromium.org/dev/developers/design-documents/extensions/how-the-extension-system-works/chrome-benchmarking-extension" target="_blank" style="float:right"><font size="4%">Help</font></a></h1>
+
+<span>Iterations</span>
+<input id="iterations" type="text" style="text-align:right" size="4">
+Clear Connections?<input id="clearconns" type="checkbox">
+Clear Cache?<input id="clearcache" type="checkbox">
+Enable Spdy?<input id="enablespdy" type="checkbox">
+<br>
+<span>URLs to load</span> <input type="text" id="testurl" size="80">
+<span class="file_input">
+<input class="file_input_button" type="button" value="Load URLs From File" />
+<input class="file_input_hidden" type="file" id="files" name="files[]" multiple />
+</span>
+<form>
+<input type="submit" value="Run">
+</form>
+<p>
+
+<h1>Results</h1>
+
+<input id="expand" type="button" value="Show More Details">
+<input id="clearSelected" type="button" value="Clear Selected" disabled="true">
+<input id="clearAll" type="button" value="Clear All">
+<input id="exportCsv" type="button" value="Export As .csv">
+<table id="t" class="sortable" width="100%">
+  <tr>
+  <th width=35 class="nobg"></th>
+  <th width=215 class="nobg">url</th>
+  <th width=110 class="nobg" style="display:none">timestamp</th>
+  <th width=50 class="nobg">iterations</th>
+  <th width=50 class="nobg">via spdy</th>
+  <th width=50 class="bg" style="display:none">start load mean</th>
+  <th width=50 class="bg" style="display:none">commit load mean</th>
+  <th width=50 class="bg">doc load mean</th>
+  <th width=50 class="bg">paint mean</th>
+  <th width=50 class="bg">total load mean</th>
+  <th width=50 class="bg">stddev</th>
+  <th width=50 class="bg" style="display:none">stderr</th>
+  <th width=50 class="bg" style="display:none">95% CI-low</th>
+  <th width=50 class="bg" style="display:none">95% CI-high</th>
+  <th width=50 class="bg" style="display:none">min</th>
+  <th width=50 class="bg" style="display:none">max</th>
+  <th width=60 class="bg" style="display:none"># Requests</th>
+  <th width=60 class="bg" style="display:none"># Connects</th>
+  <th width=50 class="bg" style="display:none"># SPDY Sessions</th>
+  <th width=50 class="bg" style="display:none">Read KB</th>
+  <th width=50 class="bg" style="display:none">Write KB</th>
+  <th width=50 class="bg">Read KBps</th>
+  <th width=50 class="bg">Write KBps</th>
+  <th width=50 class="bg"># DOM</th>
+  <th width=70 class="bg" style="display:none">max DOM depth</th>
+  <th width=30 class="bg" style="display:none">min</th>
+  <th width=30 class="bg" style="display:none">avg</th>
+  <th samples class="nobg" style="display:none">total loan time samples</th>
+  </tr>
+
+  <tr id="t.total" jsselect="totals">
+  <td class="avg" jseval="1"></td>
+  <td class="url">TOTALS <span jscontent="url"></span></td>
+  <td class="avg" style="display:none"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" style="display:none"><span jseval="val = startLoadMean.toFixed(1)" jscontent="val"></span></td>
+  <td class="avg" style="display:none"><span jseval="val = commitLoadMean.toFixed(1)" jscontent="val"></span></td>
+  <td class="avg"><span jseval="val = docLoadMean.toFixed(1)" jscontent="val"></span></td>
+  <td class="avg"><span jseval="val = paintMean.toFixed(1)" jscontent="val"></span></td>
+  <td class="avg"><span jseval="val = mean.toFixed(1)" jscontent="val"></span></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="data"></td>
+  </tr>
+
+  <tr jsselect="data">
+  <td align=right> <input type="checkbox" name="checkboxArr"></td>
+  <td class="url" jseval="$width = getWidth($this.mean, this); url.length > 40 ? $suburl = url.substring(0,27) + '...' + url.substring(url.length-10, url.length) : $suburl=url"><div jsvalues=".style.width:$width" class="bggraph"><a jsvalues="href:$this.url" jscontent="$suburl"></a></div></td>
+  <td class="avg" style="display:none" jseval="val = displayTime" jscontent="val"></td>
+  <td class="avg" jseval="val = iterations" jscontent="val"></td>
+  <td class="avg" jseval="val = viaSpdy" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = startLoadMean.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = commitLoadMean.toFixed(1)" jscontent="val"></td>
+  <td class="avg" jseval="val = docLoadMean.toFixed(1)" jscontent="val"></td>
+  <td class="avg" jseval="val = paintMean.toFixed(1)" jscontent="val"></td>
+  <td class="avg" jseval="val = mean.toFixed(1)" jscontent="val"></td>
+  <td class="avg" jseval="val = stddev.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = stderr.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = cilow.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = cihigh.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = min.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = max.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = displayRequests.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = displayConnects.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = displaySpdySessions.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = readKB.toFixed(1)" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = writeKB.toFixed(1)" jscontent="val"></td>
+  <td class="avg" jseval="val = readbps.toFixed(1)" jscontent="val"></td>
+  <td class="avg" jseval="val = writebps.toFixed(1)" jscontent="val"></td>
+  <td class="avg" jseval="val = displayDomNum" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = displayMaxDepth" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = displayMinDepth" jscontent="val"></td>
+  <td class="avg" style="display:none" jseval="val = displayAvgDepth.toFixed(1)" jscontent="val"></td>
+  <td class="data" style="display:none"><span jsselect="totalResults"><span jscontent="$this"></span>,</span> </td>
+  </tr>
+  <tr jsdisplay="data.length == 0">
+  <td colspan=2>No tests have been run yet.</td>
+  </tr>
+  <tr jsdisplay="data.length > 1">
+  <td width=25 jseval="1"></td>
+  <td class="url" jseval="1"></td>
+  <td class="avg" style="display:none" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" style="display:none"><input name="radioArr" type="radio"> </td>
+  <td class="avg" style="display:none"><input name="radioArr" type="radio"></td>
+  <td class="avg"><input name="radioArr" type="radio"></td>
+  <td class="avg"><input name="radioArr" type="radio"></td>
+  <td class="avg"><input name="radioArr" type="radio" checked></td>
+  <td class="avg" jseval="1"></td>
+  <td class="avg" style="display:none" jseval="1"></td>
+  <td class="avg" style="display:none" jseval="1"></td>
+  <td class="avg" style="display:none" jseval="1"></td>
+  <td class="avg" style="display:none" jseval="1"></td>
+  <td class="avg" style="display:none" jseval="1"></td>
+  <td class="avg" style="display:none"><input name="radioArr" type="radio"></td>
+  <td class="avg" style="display:none"><input name="radioArr" type="radio"></td>
+  <td class="avg" style="display:none" jseval="1"></td>
+  <td class="avg" style="display:none"><input name="radioArr" type="radio"></td>
+  <td class="avg" style="display:none"><input name="radioArr" type="radio"></td>
+  <td class="avg"><input name="radioArr" type="radio"></td>
+  <td class="avg"><input name="radioArr" type="radio"></td>
+  </tr>
+  <tr jsdisplay="data.length > 1">
+  <td> <input id="compare" type="button" value="Compare" disabled="true"></td>
+  </tr>
+</table>
+<hr>
+<center>
+<div id="placeholder" style="width:430px;height:230px;display:none">graph place</div>
+</center>
+<span id="toggle-json">JSON data</span><br>
+<textarea style="display:none" type=text id=json rows=10 cols=50></textarea><p>
+
+<span id="toggle-baseline">COMPARE to</span><br>
+<textarea style="display:none" type=text id=baseline rows=10 cols=50></textarea><p>
+</body>

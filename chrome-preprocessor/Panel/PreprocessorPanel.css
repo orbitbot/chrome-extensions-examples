@@ -1,0 +1,22 @@
+/* Copyright 2013 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+.newspaper {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+
+ol.newspaper {
+  border: 1px solid #69c;
+  font-size: 12px;
+  margin: 20px;
+  text-align: left;
+  width: 480px;
+}
+
+ol.newspaper li {
+  border-top: 1px dashed #fff;
+  color: #669;
+  padding: 5px;
+  vertical-align: top;
+}

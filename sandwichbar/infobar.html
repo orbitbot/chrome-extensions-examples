@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+ * Copyright (c) 2010 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+  <head>
+    <style>
+      html {
+        height: 40px;
+      }
+      body {
+        background: #fffddd;
+        font: 16px Arial;
+        height: 100%;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-pack: center;
+      }
+      em {
+        font-weight: bold;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      The word <em>sandwich</em> appears <em id="count">X</em> times on this
+      page.
+    </div>
+    <script src="infobar.js"></script>
+  </body>
+</html>

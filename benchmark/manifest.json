@@ -1,0 +1,19 @@
+{
+  "name": "Page Benchmarker",
+  "version": "1.3.4.0",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "description": "Chromium Page Benchmarker.",
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Benchmark page load time",
+    "default_icon": "stopwatch.jpg"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs", "https://*/*", "http://*/*"
+  ]
+}

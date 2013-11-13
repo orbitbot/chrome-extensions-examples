@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+ * Copyright (c) 2012 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+<head>
+  <title id=optionsTitle></title>
+  <script src="../javascript/options.js"></script>
+  <script src="../javascript/util.js"></script>
+  <style>
+    #content {
+      background-color: white;
+      border: 4px solid #B5C7DE;
+      border-radius: 12px;
+      margin: 40px auto 20px;
+      padding: 8px;
+      width: 600px;
+    }
+    .option_row {
+      clear: left;
+      padding: 2.5em 1em 0;
+      text-align:center
+    }
+    #status {
+      background-color: rgb(255, 241, 168);
+      display: none;
+      margin-left: 3px;
+      padding: 1px 2px;
+      text-align: center;
+      font-size: 15px;
+      color: #000;
+    }
+    #multiCalendarText {
+      font-size: 15px;
+      color: #000;
+    }
+    body {
+      background-color: "#ebeff9";
+    }
+    #logo {
+      font-size: 20px;
+      text-align: center;
+    }
+    #extensionName {
+      color: #444;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="content">
+    <div id = "logo">
+      <img src="../images/icon-128.gif" width="48">&nbsp;&nbsp;&nbsp;
+      <img src="../images/calendar_logo.gif" id="imageTooltip" title="" alt="">
+      <br>
+      <label id="extensionName" ></label>
+    </div>
+
+    <div class="option_row">
+      <div>
+        <table cellpadding=1 width=100%>
+          <tr>
+            <td width="15%">
+              &nbsp;
+            </td>
+            <td width="5%">
+              <input type="checkbox" id="multiCalendar" name="multiCalendar" title="">
+            </td>
+            <td width="40%" align="left">
+              <span id="multiCalendarText" title=""></span>
+            </td>
+            <td width="30%">
+              <label id="status"></label>
+            </td>
+            <td width="10%">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+        <br>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

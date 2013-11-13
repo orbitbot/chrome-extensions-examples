@@ -1,0 +1,23 @@
+{
+  "name" : "SandwichBar",
+  "version" : "1.0.1",
+  "description" : "Shows an infobar on pages which contain the word 'sandwich'",
+  "background" : {
+    "scripts": ["background.js"]
+  },
+  "permissions" : [ "infobars" ],
+  "icons" : {
+    "16" : "sandwich-16.png",
+    "48" : "sandwich-48.png",
+    "128" : "sandwich-128.png"
+  },
+  "content_scripts" : [
+    {
+      "matches" : [ "http://*/*" ],
+      "js" : [ "contentscript.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "manifest_version": 2
+}
