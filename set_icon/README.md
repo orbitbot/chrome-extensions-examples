@@ -16,4 +16,5 @@ Calls
 * [pageAction.setIcon](http://developer.chrome.com/extensions/pageAction.html#method-setIcon)
 * [pageAction.setTitle](http://developer.chrome.com/extensions/pageAction.html#method-setTitle)
 * [pageAction.show](http://developer.chrome.com/extensions/pageAction.html#method-show)
+* [tabs.onSelectionChanged](http://developer.chrome.com/extensions/tabs.html#event-onSelectionChanged)
 * [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)

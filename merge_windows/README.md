@@ -12,6 +12,7 @@ Calls
 -----
 
 * [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
+* [tabs.getAllInWindow](http://developer.chrome.com/extensions/tabs.html#method-getAllInWindow)
 * [tabs.move](http://developer.chrome.com/extensions/tabs.html#method-move)
 * [windows.getAll](http://developer.chrome.com/extensions/windows.html#method-getAll)
 * [windows.getCurrent](http://developer.chrome.com/extensions/windows.html#method-getCurrent)

@@ -13,5 +13,6 @@ Calls
 
 * [browserAction.setBadgeText](http://developer.chrome.com/extensions/browserAction.html#method-setBadgeText)
 * [tabs.detectLanguage](http://developer.chrome.com/extensions/tabs.html#method-detectLanguage)
+* [tabs.onSelectionChanged](http://developer.chrome.com/extensions/tabs.html#event-onSelectionChanged)
 * [tabs.onUpdated](http://developer.chrome.com/extensions/tabs.html#event-onUpdated)
 * [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)

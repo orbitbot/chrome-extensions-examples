@@ -15,6 +15,8 @@ Calls
 * [browserAction.setBadgeText](http://developer.chrome.com/extensions/browserAction.html#method-setBadgeText)
 * [browserAction.setTitle](http://developer.chrome.com/extensions/browserAction.html#method-setTitle)
 * [extension.isAllowedIncognitoAccess](http://developer.chrome.com/extensions/extension.html#method-isAllowedIncognitoAccess)
+* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
+* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
 * [i18n.getMessage](http://developer.chrome.com/extensions/i18n.html#method-getMessage)
 * [proxy.onProxyError](http://developer.chrome.com/extensions/proxy.html#event-onProxyError)
 * [runtime.lastError](http://developer.chrome.com/extensions/runtime.html#property-lastError)

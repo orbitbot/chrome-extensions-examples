@@ -11,4 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
+* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
+* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
 * [infobars.show](http://developer.chrome.com/extensions/infobars.html#method-show)

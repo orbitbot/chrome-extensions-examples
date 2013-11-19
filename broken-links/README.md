@@ -12,4 +12,7 @@ Calls
 -----
 
 * [experimental.devtools.audits.addCategory](http://developer.chrome.com/extensions/experimental.devtools.audits.html#method-addCategory)
+* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
+* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
 * [tabs.executeScript](http://developer.chrome.com/extensions/tabs.html#method-executeScript)
+* [tabs.sendRequest](http://developer.chrome.com/extensions/tabs.html#method-sendRequest)

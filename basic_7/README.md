@@ -11,6 +11,8 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
+* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
+* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
 * [i18n.getMessage](http://developer.chrome.com/extensions/i18n.html#method-getMessage)
 * [runtime.onStartup](http://developer.chrome.com/extensions/runtime.html#event-onStartup)
 * [storage.StorageArea.get](http://developer.chrome.com/extensions/storage.html#method-StorageArea-get)

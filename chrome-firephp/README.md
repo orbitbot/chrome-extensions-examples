@@ -13,4 +13,6 @@ Calls
 
 * [devtools.network.getHAR](http://developer.chrome.com/extensions/devtools.network.html#method-getHAR)
 * [devtools.network.onRequestFinished](http://developer.chrome.com/extensions/devtools.network.html#event-onRequestFinished)
+* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
+* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
 * [tabs.executeScript](http://developer.chrome.com/extensions/tabs.html#method-executeScript)

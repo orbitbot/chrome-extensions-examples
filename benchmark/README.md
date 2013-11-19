@@ -22,6 +22,7 @@ Calls
 * [runtime.onConnect](http://developer.chrome.com/extensions/runtime.html#event-onConnect)
 * [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
 * [tabs.executeScript](http://developer.chrome.com/extensions/tabs.html#method-executeScript)
+* [tabs.getAllInWindow](http://developer.chrome.com/extensions/tabs.html#method-getAllInWindow)
 * [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
 * [tabs.remove](http://developer.chrome.com/extensions/tabs.html#method-remove)
 * [tabs.update](http://developer.chrome.com/extensions/tabs.html#method-update)

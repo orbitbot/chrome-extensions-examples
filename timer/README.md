@@ -11,6 +11,8 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
+* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
 * [runtime.onConnect](http://developer.chrome.com/extensions/runtime.html#event-onConnect)
 * [tabs.connect](http://developer.chrome.com/extensions/tabs.html#method-connect)
 * [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
+* [tabs.sendRequest](http://developer.chrome.com/extensions/tabs.html#method-sendRequest)

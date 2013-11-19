@@ -23,6 +23,7 @@ Calls
 * [runtime.onStartup](http://developer.chrome.com/extensions/runtime.html#event-onStartup)
 * [runtime.onStartup](http://developer.chrome.com/extensions/runtime.html#event-onStartup)
 * [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
+* [tabs.getAllInWindow](http://developer.chrome.com/extensions/tabs.html#method-getAllInWindow)
 * [tabs.onUpdated](http://developer.chrome.com/extensions/tabs.html#event-onUpdated)
 * [tabs.update](http://developer.chrome.com/extensions/tabs.html#method-update)
 * [webNavigation.onDOMContentLoaded](http://developer.chrome.com/extensions/webNavigation.html#event-onDOMContentLoaded)
