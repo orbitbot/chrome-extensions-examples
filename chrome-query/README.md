@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [devtools.panels.ElementsPanel.createSidebarPane](http://developer.chrome.com/extensions/devtools.panels.html#method-ElementsPanel-createSidebarPane)
-* [devtools.panels.ElementsPanel.onSelectionChanged](http://developer.chrome.com/extensions/devtools.panels.html#event-ElementsPanel-onSelectionChanged)
+* [devtools.panels.ElementsPanel.createSidebarPane](https://developer.chrome.com/extensions/devtools.panels#method-ElementsPanel-createSidebarPane)
+* [devtools.panels.ElementsPanel.onSelectionChanged](https://developer.chrome.com/extensions/devtools.panels#event-ElementsPanel-onSelectionChanged)

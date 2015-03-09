@@ -11,9 +11,9 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [runtime.connect](http://developer.chrome.com/extensions/runtime.html#method-connect)
-* [runtime.onConnect](http://developer.chrome.com/extensions/runtime.html#event-onConnect)
-* [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
-* [tabs.executeScript](http://developer.chrome.com/extensions/tabs.html#method-executeScript)
-* [tabs.update](http://developer.chrome.com/extensions/tabs.html#method-update)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [runtime.connect](https://developer.chrome.com/extensions/runtime#method-connect)
+* [runtime.onConnect](https://developer.chrome.com/extensions/runtime#event-onConnect)
+* [tabs.create](https://developer.chrome.com/extensions/tabs#method-create)
+* [tabs.executeScript](https://developer.chrome.com/extensions/tabs#method-executeScript)
+* [tabs.update](https://developer.chrome.com/extensions/tabs#method-update)

@@ -11,8 +11,8 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [bookmarks.create](http://developer.chrome.com/extensions/bookmarks.html#method-create)
-* [bookmarks.getTree](http://developer.chrome.com/extensions/bookmarks.html#method-getTree)
-* [bookmarks.remove](http://developer.chrome.com/extensions/bookmarks.html#method-remove)
-* [bookmarks.update](http://developer.chrome.com/extensions/bookmarks.html#method-update)
-* [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
+* [bookmarks.create](https://developer.chrome.com/extensions/bookmarks#method-create)
+* [bookmarks.getTree](https://developer.chrome.com/extensions/bookmarks#method-getTree)
+* [bookmarks.remove](https://developer.chrome.com/extensions/bookmarks#method-remove)
+* [bookmarks.update](https://developer.chrome.com/extensions/bookmarks#method-update)
+* [tabs.create](https://developer.chrome.com/extensions/tabs#method-create)

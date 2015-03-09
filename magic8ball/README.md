@@ -11,4 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [topSites.get](http://developer.chrome.com/extensions/topSites.html#method-get)
+* [topSites.get](https://developer.chrome.com/extensions/topSites#method-get)

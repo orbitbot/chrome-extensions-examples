@@ -11,6 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [contentSettings.ContentSetting.get](http://developer.chrome.com/extensions/contentSettings.html#method-ContentSetting-get)
-* [contentSettings.ContentSetting.set](http://developer.chrome.com/extensions/contentSettings.html#method-ContentSetting-set)
-* [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
+* [contentSettings.ContentSetting.get](https://developer.chrome.com/extensions/contentSettings#method-ContentSetting-get)
+* [contentSettings.ContentSetting.set](https://developer.chrome.com/extensions/contentSettings#method-ContentSetting-set)
+* [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)

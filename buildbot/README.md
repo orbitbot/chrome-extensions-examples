@@ -11,11 +11,11 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.setBadgeBackgroundColor](http://developer.chrome.com/extensions/browserAction.html#method-setBadgeBackgroundColor)
-* [browserAction.setBadgeText](http://developer.chrome.com/extensions/browserAction.html#method-setBadgeText)
-* [browserAction.setTitle](http://developer.chrome.com/extensions/browserAction.html#method-setTitle)
-* [extension.getBackgroundPage](http://developer.chrome.com/extensions/extension.html#method-getBackgroundPage)
-* [extension.getURL](http://developer.chrome.com/extensions/extension.html#method-getURL)
-* [extension.getViews](http://developer.chrome.com/extensions/extension.html#method-getViews)
-* [storage.StorageArea.get](http://developer.chrome.com/extensions/storage.html#method-StorageArea-get)
-* [storage.StorageArea.set](http://developer.chrome.com/extensions/storage.html#method-StorageArea-set)
+* [browserAction.setBadgeBackgroundColor](https://developer.chrome.com/extensions/browserAction#method-setBadgeBackgroundColor)
+* [browserAction.setBadgeText](https://developer.chrome.com/extensions/browserAction#method-setBadgeText)
+* [browserAction.setTitle](https://developer.chrome.com/extensions/browserAction#method-setTitle)
+* [extension.getBackgroundPage](https://developer.chrome.com/extensions/extension#method-getBackgroundPage)
+* [extension.getURL](https://developer.chrome.com/extensions/extension#method-getURL)
+* [extension.getViews](https://developer.chrome.com/extensions/extension#method-getViews)
+* [storage.StorageArea.get](https://developer.chrome.com/extensions/storage#method-StorageArea-get)
+* [storage.StorageArea.set](https://developer.chrome.com/extensions/storage#method-StorageArea-set)

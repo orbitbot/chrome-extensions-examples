@@ -14,11 +14,10 @@ chrome.browserAction.onClicked.addListener(function() {
 
 window.addEventListener('message', function(event) {
   if (event.data.html) {
-    var notification = webkitNotifications.createNotification(
-      'icon.png',
-      'Templated!',
-      'HTML Received for "' + event.data.name + '": `' + event.data.html + '`'
-    );
-    notification.show();
+    new Notification('Templated!', {
+      icon: 'icon.png',
+      body: 'HTML Received for "' + event.data.name + '": `' +
+          event.data.html + '`'
+    });
   }
 });

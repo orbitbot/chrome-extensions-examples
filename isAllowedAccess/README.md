@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [extension.isAllowedFileSchemeAccess](http://developer.chrome.com/extensions/extension.html#method-isAllowedFileSchemeAccess)
-* [extension.isAllowedIncognitoAccess](http://developer.chrome.com/extensions/extension.html#method-isAllowedIncognitoAccess)
+* [extension.isAllowedFileSchemeAccess](https://developer.chrome.com/extensions/extension#method-isAllowedFileSchemeAccess)
+* [extension.isAllowedIncognitoAccess](https://developer.chrome.com/extensions/extension#method-isAllowedIncognitoAccess)

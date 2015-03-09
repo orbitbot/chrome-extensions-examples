@@ -35,6 +35,8 @@ function Slider(container, value, min, max, opt_onChange) {
 
   this.input_.addEventListener(
       'change', this.onInputChange_.bind(this));
+  this.input_.addEventListener(
+      'input', this.onInputChange_.bind(this));
 
   this.bar_ = containerDocument.createElement('div');
   this.bar_.className = 'bar';

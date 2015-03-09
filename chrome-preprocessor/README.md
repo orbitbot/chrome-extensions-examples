@@ -11,6 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [devtools.inspectedWindow.eval](http://developer.chrome.com/extensions/devtools.inspectedWindow.html#method-eval)
-* [devtools.inspectedWindow.reload](http://developer.chrome.com/extensions/devtools.inspectedWindow.html#method-reload)
-* [devtools.panels.create](http://developer.chrome.com/extensions/devtools.panels.html#method-create)
+* [devtools.inspectedWindow.eval](https://developer.chrome.com/extensions/devtools.inspectedWindow#method-eval)
+* [devtools.inspectedWindow.reload](https://developer.chrome.com/extensions/devtools.inspectedWindow#method-reload)
+* [devtools.panels.create](https://developer.chrome.com/extensions/devtools.panels#method-create)

@@ -11,8 +11,8 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.setBadgeText](http://developer.chrome.com/extensions/browserAction.html#method-setBadgeText)
-* [tabs.detectLanguage](http://developer.chrome.com/extensions/tabs.html#method-detectLanguage)
-* [tabs.onSelectionChanged](http://developer.chrome.com/extensions/tabs.html#event-onSelectionChanged)
-* [tabs.onUpdated](http://developer.chrome.com/extensions/tabs.html#event-onUpdated)
-* [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
+* [browserAction.setBadgeText](https://developer.chrome.com/extensions/browserAction#method-setBadgeText)
+* [tabs.detectLanguage](https://developer.chrome.com/extensions/tabs#method-detectLanguage)
+* [tabs.onSelectionChanged](https://developer.chrome.com/extensions/tabs#event-onSelectionChanged)
+* [tabs.onUpdated](https://developer.chrome.com/extensions/tabs#event-onUpdated)
+* [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)

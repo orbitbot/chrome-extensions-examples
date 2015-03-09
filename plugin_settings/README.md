@@ -11,10 +11,9 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [contentSettings.plugins](http://developer.chrome.com/extensions/contentSettings.html#property-plugins)
-* [contentSettings.ContentSetting.clear](http://developer.chrome.com/extensions/contentSettings.html#method-ContentSetting-clear)
-* [contentSettings.ContentSetting.getResourceIdentifiers](http://developer.chrome.com/extensions/contentSettings.html#method-ContentSetting-getResourceIdentifiers)
-* [contentSettings.ContentSetting.set](http://developer.chrome.com/extensions/contentSettings.html#method-ContentSetting-set)
-* [i18n.getMessage](http://developer.chrome.com/extensions/i18n.html#method-getMessage)
-* [runtime.lastError](http://developer.chrome.com/extensions/runtime.html#property-lastError)
-* [runtime.lastError.message](http://developer.chrome.com/extensions/runtime.html#property-lastError-message)
+* [contentSettings.plugins](https://developer.chrome.com/extensions/contentSettings#property-plugins)
+* [contentSettings.ContentSetting.clear](https://developer.chrome.com/extensions/contentSettings#method-ContentSetting-clear)
+* [contentSettings.ContentSetting.getResourceIdentifiers](https://developer.chrome.com/extensions/contentSettings#method-ContentSetting-getResourceIdentifiers)
+* [contentSettings.ContentSetting.set](https://developer.chrome.com/extensions/contentSettings#method-ContentSetting-set)
+* [i18n.getMessage](https://developer.chrome.com/extensions/i18n#method-getMessage)
+* [runtime.lastError](https://developer.chrome.com/extensions/runtime#property-lastError)

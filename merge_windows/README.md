@@ -11,8 +11,8 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [tabs.getAllInWindow](http://developer.chrome.com/extensions/tabs.html#method-getAllInWindow)
-* [tabs.move](http://developer.chrome.com/extensions/tabs.html#method-move)
-* [windows.getAll](http://developer.chrome.com/extensions/windows.html#method-getAll)
-* [windows.getCurrent](http://developer.chrome.com/extensions/windows.html#method-getCurrent)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [tabs.getAllInWindow](https://developer.chrome.com/extensions/tabs#method-getAllInWindow)
+* [tabs.move](https://developer.chrome.com/extensions/tabs#method-move)
+* [windows.getAll](https://developer.chrome.com/extensions/windows#method-getAll)
+* [windows.getCurrent](https://developer.chrome.com/extensions/windows#method-getCurrent)

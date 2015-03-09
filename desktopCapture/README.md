@@ -11,7 +11,7 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [app.runtime.onLaunched](http://developer.chrome.com/extensions/app.runtime.html#event-onLaunched)
-* [app.window.create](http://developer.chrome.com/extensions/app.window.html#method-create)
-* [desktopCapture.cancelChooseDesktopMedia](http://developer.chrome.com/extensions/desktopCapture.html#method-cancelChooseDesktopMedia)
-* [desktopCapture.chooseDesktopMedia](http://developer.chrome.com/extensions/desktopCapture.html#method-chooseDesktopMedia)
+* [desktopCapture.cancelChooseDesktopMedia](https://developer.chrome.com/extensions/desktopCapture#method-cancelChooseDesktopMedia)
+* [desktopCapture.chooseDesktopMedia](https://developer.chrome.com/extensions/desktopCapture#method-chooseDesktopMedia)
+* [runtime.onMessage](https://developer.chrome.com/extensions/runtime#event-onMessage)
+* [runtime.sendMessage](https://developer.chrome.com/extensions/runtime#method-sendMessage)

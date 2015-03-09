@@ -9,12 +9,12 @@ function init() {
       var table = "<table>\n" +
         "<tr><td><b>Process</b></td>" +
         "<td>OS ID</td>" +
+        "<td>Title</td>" +
         "<td>Type</td>" +
         "<td>Tabs</td>" +
         "<td>CPU</td>" +
         "<td>Network</td>" +
         "<td>Private Memory</td>" +
-        "<td>FPS</td>" +
         "<td>JS Memory</td>" +
         "<td></td>" +
         "</tr>\n";
@@ -46,6 +46,7 @@ function displayProcessInfo(process, table) {
   table +=
     "<tr><td>" + process.id + "</td>" +
     "<td>" + process.osProcessId + "</td>" +
+    "<td>" + process.title + "</td>" +
     "<td>" + process.type + "</td>" +
     "<td>" + process.tabs + "</td>" +
     "<td>" + process.cpu + "</td>" +
@@ -56,12 +57,6 @@ function displayProcessInfo(process, table) {
   } else {
     table += "<td>N/A</td>";
   }
-  if ("fps" in process) {
-    table += "<td>" + process.fps.toFixed(2) + "</td>";
-  } else {
-    table += "<td>N/A</td>";
-  }
-
   if ("jsMemoryAllocated" in process) {
     var allocated = process.jsMemoryAllocated / 1024;
     var used = process.jsMemoryUsed / 1024;

@@ -11,5 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [runtime.connectNative](http://developer.chrome.com/extensions/runtime.html#method-connectNative)
-* [runtime.lastError.message](http://developer.chrome.com/extensions/runtime.html#property-lastError-message)
+* [runtime.connectNative](https://developer.chrome.com/extensions/runtime#method-connectNative)

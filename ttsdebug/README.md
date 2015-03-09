@@ -11,6 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [tts.getVoices](http://developer.chrome.com/extensions/tts.html#method-getVoices)
-* [tts.speak](http://developer.chrome.com/extensions/tts.html#method-speak)
-* [tts.stop](http://developer.chrome.com/extensions/tts.html#method-stop)
+* [tts.getVoices](https://developer.chrome.com/extensions/tts#method-getVoices)
+* [tts.speak](https://developer.chrome.com/extensions/tts#method-speak)
+* [tts.stop](https://developer.chrome.com/extensions/tts#method-stop)

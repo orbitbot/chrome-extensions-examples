@@ -11,11 +11,11 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [browserAction.setIcon](http://developer.chrome.com/extensions/browserAction.html#method-setIcon)
-* [extension.getBackgroundPage](http://developer.chrome.com/extensions/extension.html#method-getBackgroundPage)
-* [extension.getURL](http://developer.chrome.com/extensions/extension.html#method-getURL)
-* [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
-* [tabs.onUpdated](http://developer.chrome.com/extensions/tabs.html#event-onUpdated)
-* [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
-* [tabs.remove](http://developer.chrome.com/extensions/tabs.html#method-remove)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [browserAction.setIcon](https://developer.chrome.com/extensions/browserAction#method-setIcon)
+* [extension.getBackgroundPage](https://developer.chrome.com/extensions/extension#method-getBackgroundPage)
+* [extension.getURL](https://developer.chrome.com/extensions/extension#method-getURL)
+* [tabs.create](https://developer.chrome.com/extensions/tabs#method-create)
+* [tabs.onUpdated](https://developer.chrome.com/extensions/tabs#event-onUpdated)
+* [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)
+* [tabs.remove](https://developer.chrome.com/extensions/tabs#method-remove)

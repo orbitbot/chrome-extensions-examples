@@ -2,7 +2,7 @@
 Page action by content
 =======
 
-Shows a page action for HTML pages containing the word 'sandwich'
+Shows a page action for HTML pages containing a video
 
 [Zipfile](http://developer.chrome.com/extensions/examples/api/pageAction/pageaction_by_content.zip)
 
@@ -11,6 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
-* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
-* [pageAction.show](http://developer.chrome.com/extensions/pageAction.html#method-show)
+* [declarativeContent.PageStateMatcher](https://developer.chrome.com/extensions/declarativeContent#type-PageStateMatcher)
+* [declarativeContent.ShowPageAction](https://developer.chrome.com/extensions/declarativeContent#type-ShowPageAction)
+* [runtime.onInstalled](https://developer.chrome.com/extensions/runtime#event-onInstalled)

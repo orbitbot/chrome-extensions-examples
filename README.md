@@ -1,16 +1,16 @@
 
-chrome-extensions-example
-=========================
+chrome-extensions-examples
+==========================
 
-The [Chrome Extensions examples](http://developer.chrome.com/extensions/samples.html) did not 
+The [Chrome Extensions examples](http://developer.chrome.com/extensions/samples) did not
 exist as a Git repository, and browsing both the samples page and the VCViewer did not seem particularly
 handy. So, I decided to scrape the content into this repository for easier browsing and (possible)
 editing.
 
-If you would like to clone a part of this repository, use git 
+If you would like to clone a part of this repository, use git
 [sparse checkouts](http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/).
 
-You can find the scraper used to generate this repository (except for a `git init` and push) 
+You can find the scraper used to generate this repository (except for a `git init` and push)
 on [github](https://github.com/orbitbot/chrome-extension-scraper).
 
 
@@ -42,13 +42,11 @@ Example projects
 * [Chromium IRC App](/app_2/)
 * [Chromium Search](/chrome_search/)
 * [Console TTS Engine](/console_tts_engine/)
-* [Content Script Cross-Domain XMLHttpRequest Example](/contentscript_xhr/)
 * [Content settings](/contentSettings/)
 * [Context Menus Sample](/basic_2/)
 * [Context Menus Sample (with Event Page)](/event_page/)
 * [Cookie API Test Extension](/cookies/)
 * [Desktop Capture Example](/desktopCapture/)
-* [Download Filename Controller](/download_filename_controller/)
 * [Download Manager Button](/download_manager/)
 * [Download Selected Links](/download_links/)
 * [Download and Open Button](/download_open/)
@@ -56,7 +54,10 @@ Example projects
 * [Email this page (by Google)](/email_this_page/)
 * [Event Page Example](/basic_4/)
 * [Event Tracking with Google Analytics](/analytics/)
+* [Fake Archive Handler App](/archive/)
+* [File System Provider API Extension Example](/basic_5/)
 * [FirePHP for Chrome](/chrome-firephp/)
+* [Getting started example](/getstarted/)
 * [Google Calendar Checker (by Google)](/calendar/)
 * [Google Document List Viewer](/gdocs/)
 * [Google Mail Checker](/gmail/)
@@ -67,6 +68,7 @@ Example projects
 * [Keep Awake](/power/)
 * [Keyboard Pin](/pin/)
 * [Live HTTP headers](/live-headers/)
+* [Managed Bookmarks](/managed_bookmarks/)
 * [Mappy](/mappy/)
 * [Merge Windows](/merge_windows/)
 * [Message Timer](/timer/)
@@ -80,8 +82,6 @@ Example projects
 * [News Reader (by Google)](/news/)
 * [Notification Demo](/notifications/)
 * [Omnibox Example](/simple-example/)
-* [One-click Kittens](/getstarted/)
-* [Page Benchmarker](/benchmark/)
 * [Page Redder](/make_page_red/)
 * [Page action by URL](/pageaction_by_url/)
 * [Page action by content](/pageaction_by_content/)
@@ -92,7 +92,6 @@ Example projects
 * [Sample - OAuth Contacts](/oauth_contacts/)
 * [Sample Extension Commands extension](/commands/)
 * [Sandboxed Frame](/sandbox/)
-* [SandwichBar](/sandwichbar/)
 * [Show Tabs in Process](/show_tabs/)
 * [Simple Background App](/background-simple/)
 * [Speak Selection](/speak_selection/)
@@ -101,12 +100,13 @@ Example projects
 * [TTS Demo](/ttsdemo/)
 * [Tab Inspector](/inspector/)
 * [Tab Shortcuts](/tab_shortcuts/)
+* [Tabs Zoom API Demo](/zoom/)
 * [Talking Alarm Clock](/talking_alarm_clock/)
-* [Test IME](/basic_5/)
+* [Test IME](/basic_6/)
 * [Test Screenshot Extension](/screenshot/)
 * [Top Chrome Extension Questions](/extension-questions/)
-* [Top Sites](/basic_6/)
+* [Top Sites](/basic_7/)
 * [Typed URL History](/showHistory/)
-* [WebNavigation Tech Demo](/basic_7/)
+* [WebNavigation Tech Demo](/basic_8/)
 * [`extension.isAllowedFileSchemeAccess` and `extension.isAllowedIncognitoAccess` Example](/isAllowedAccess/)
 * [iGoogle new tab page](/override_igoogle/)

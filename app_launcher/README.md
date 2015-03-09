@@ -11,7 +11,7 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [extension.getURL](http://developer.chrome.com/extensions/extension.html#method-getURL)
-* [management.getAll](http://developer.chrome.com/extensions/management.html#method-getAll)
-* [management.launchApp](http://developer.chrome.com/extensions/management.html#method-launchApp)
-* [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
+* [extension.getURL](https://developer.chrome.com/extensions/extension#method-getURL)
+* [management.getAll](https://developer.chrome.com/extensions/management#method-getAll)
+* [management.launchApp](https://developer.chrome.com/extensions/management#method-launchApp)
+* [tabs.create](https://developer.chrome.com/extensions/tabs#method-create)

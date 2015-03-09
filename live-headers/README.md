@@ -11,11 +11,10 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [debugger.attach](http://developer.chrome.com/extensions/debugger.html#method-attach)
-* [debugger.detach](http://developer.chrome.com/extensions/debugger.html#method-detach)
-* [debugger.onEvent](http://developer.chrome.com/extensions/debugger.html#event-onEvent)
-* [debugger.sendCommand](http://developer.chrome.com/extensions/debugger.html#method-sendCommand)
-* [runtime.lastError](http://developer.chrome.com/extensions/runtime.html#property-lastError)
-* [runtime.lastError.message](http://developer.chrome.com/extensions/runtime.html#property-lastError-message)
-* [windows.create](http://developer.chrome.com/extensions/windows.html#method-create)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [debugger.attach](https://developer.chrome.com/extensions/debugger#method-attach)
+* [debugger.detach](https://developer.chrome.com/extensions/debugger#method-detach)
+* [debugger.onEvent](https://developer.chrome.com/extensions/debugger#event-onEvent)
+* [debugger.sendCommand](https://developer.chrome.com/extensions/debugger#method-sendCommand)
+* [runtime.lastError](https://developer.chrome.com/extensions/runtime#property-lastError)
+* [windows.create](https://developer.chrome.com/extensions/windows#method-create)

@@ -11,12 +11,12 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.setBadgeBackgroundColor](http://developer.chrome.com/extensions/browserAction.html#method-setBadgeBackgroundColor)
-* [browserAction.setBadgeText](http://developer.chrome.com/extensions/browserAction.html#method-setBadgeText)
-* [browserAction.setTitle](http://developer.chrome.com/extensions/browserAction.html#method-setTitle)
-* [extension.isAllowedIncognitoAccess](http://developer.chrome.com/extensions/extension.html#method-isAllowedIncognitoAccess)
-* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
-* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
-* [i18n.getMessage](http://developer.chrome.com/extensions/i18n.html#method-getMessage)
-* [proxy.onProxyError](http://developer.chrome.com/extensions/proxy.html#event-onProxyError)
-* [runtime.lastError](http://developer.chrome.com/extensions/runtime.html#property-lastError)
+* [browserAction.setBadgeBackgroundColor](https://developer.chrome.com/extensions/browserAction#method-setBadgeBackgroundColor)
+* [browserAction.setBadgeText](https://developer.chrome.com/extensions/browserAction#method-setBadgeText)
+* [browserAction.setTitle](https://developer.chrome.com/extensions/browserAction#method-setTitle)
+* [extension.isAllowedIncognitoAccess](https://developer.chrome.com/extensions/extension#method-isAllowedIncognitoAccess)
+* [extension.onRequest](https://developer.chrome.com/extensions/extension#event-onRequest)
+* [extension.sendRequest](https://developer.chrome.com/extensions/extension#method-sendRequest)
+* [i18n.getMessage](https://developer.chrome.com/extensions/i18n#method-getMessage)
+* [proxy.onProxyError](https://developer.chrome.com/extensions/proxy#event-onProxyError)
+* [runtime.lastError](https://developer.chrome.com/extensions/runtime#property-lastError)

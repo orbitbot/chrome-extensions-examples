@@ -11,4 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [downloads.onDeterminingFilename](http://developer.chrome.com/extensions/downloads.html#event-onDeterminingFilename)
+* [downloads.onDeterminingFilename](https://developer.chrome.com/extensions/downloads#event-onDeterminingFilename)

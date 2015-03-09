@@ -11,5 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [pageAction.show](http://developer.chrome.com/extensions/pageAction.html#method-show)
-* [tabs.onUpdated](http://developer.chrome.com/extensions/tabs.html#event-onUpdated)
+* [declarativeContent.PageStateMatcher](https://developer.chrome.com/extensions/declarativeContent#type-PageStateMatcher)
+* [declarativeContent.ShowPageAction](https://developer.chrome.com/extensions/declarativeContent#type-ShowPageAction)
+* [runtime.onInstalled](https://developer.chrome.com/extensions/runtime#event-onInstalled)

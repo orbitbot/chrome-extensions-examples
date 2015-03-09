@@ -11,6 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [contextMenus.create](http://developer.chrome.com/extensions/contextMenus.html#method-create)
-* [extension.lastError](http://developer.chrome.com/extensions/extension.html#property-lastError)
-* [extension.lastError.message](http://developer.chrome.com/extensions/extension.html#property-lastError-message)
+* [contextMenus.create](https://developer.chrome.com/extensions/contextMenus#method-create)
+* [extension.lastError](https://developer.chrome.com/extensions/extension#property-lastError)

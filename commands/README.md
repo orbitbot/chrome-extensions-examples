@@ -11,4 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [commands.onCommand](http://developer.chrome.com/extensions/commands.html#event-onCommand)
+* [commands.onCommand](https://developer.chrome.com/extensions/commands#event-onCommand)

@@ -11,7 +11,7 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [extension.getBackgroundPage](http://developer.chrome.com/extensions/extension.html#method-getBackgroundPage)
-* [idle.onStateChanged](http://developer.chrome.com/extensions/idle.html#event-onStateChanged)
-* [idle.queryState](http://developer.chrome.com/extensions/idle.html#method-queryState)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [extension.getBackgroundPage](https://developer.chrome.com/extensions/extension#method-getBackgroundPage)
+* [idle.onStateChanged](https://developer.chrome.com/extensions/idle#event-onStateChanged)
+* [idle.queryState](https://developer.chrome.com/extensions/idle#method-queryState)

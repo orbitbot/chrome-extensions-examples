@@ -11,4 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [webRequest.onBeforeRequest](http://developer.chrome.com/extensions/webRequest.html#event-onBeforeRequest)
+* [webRequest.onBeforeRequest](https://developer.chrome.com/extensions/webRequest#event-onBeforeRequest)

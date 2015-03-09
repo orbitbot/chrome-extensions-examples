@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [omnibox.onInputChanged](http://developer.chrome.com/extensions/omnibox.html#event-onInputChanged)
-* [omnibox.onInputEntered](http://developer.chrome.com/extensions/omnibox.html#event-onInputEntered)
+* [omnibox.onInputChanged](https://developer.chrome.com/extensions/omnibox#event-onInputChanged)
+* [omnibox.onInputEntered](https://developer.chrome.com/extensions/omnibox#event-onInputEntered)

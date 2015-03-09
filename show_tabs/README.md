@@ -11,9 +11,9 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [processes.getProcessIdForTab](http://developer.chrome.com/extensions/processes.html#method-getProcessIdForTab)
-* [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
-* [tabs.update](http://developer.chrome.com/extensions/tabs.html#method-update)
-* [windows.getAll](http://developer.chrome.com/extensions/windows.html#method-getAll)
-* [windows.getCurrent](http://developer.chrome.com/extensions/windows.html#method-getCurrent)
-* [windows.update](http://developer.chrome.com/extensions/windows.html#method-update)
+* [processes.getProcessIdForTab](https://developer.chrome.com/extensions/processes#method-getProcessIdForTab)
+* [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)
+* [tabs.update](https://developer.chrome.com/extensions/tabs#method-update)
+* [windows.getAll](https://developer.chrome.com/extensions/windows#method-getAll)
+* [windows.getCurrent](https://developer.chrome.com/extensions/windows#method-getCurrent)
+* [windows.update](https://developer.chrome.com/extensions/windows#method-update)

@@ -11,6 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [history.getVisits](http://developer.chrome.com/extensions/history.html#method-getVisits)
-* [history.search](http://developer.chrome.com/extensions/history.html#method-search)
-* [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
+* [history.getVisits](https://developer.chrome.com/extensions/history#method-getVisits)
+* [history.search](https://developer.chrome.com/extensions/history#method-search)
+* [tabs.create](https://developer.chrome.com/extensions/tabs#method-create)

@@ -1,36 +1,27 @@
-// Copyright (c) 2011 The Chromium Authors. All rights reserved.
+// Copyright 2013 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/**
- * @filedescription Initializes the extension's popup page.
- */
+// Event listener for clicks on links in a browser action popup.
+// Open the link in a new tab of the current window.
+function onAnchorClick(event) {
+  chrome.tabs.create({ url: event.srcElement.href });
+  return false;
+}
 
-chrome.extension.sendRequest(
-    {'type': 'getMostRequestedUrls'},
-    function generateList(response) {
-      var section = document.querySelector('body>section');
-      var results = response.result;
-      var ol = document.createElement('ol');
-      var li, p, em, code, text;
-      var i;
-      for (i = 0; i < results.length; i++ ) {
-        li = document.createElement('li');
-        p = document.createElement('p');
-        em = document.createElement('em');
-        em.textContent = i + 1;
-        code = document.createElement('code');
-        code.textContent = results[i].url;
-        text = document.createTextNode(
-          chrome.i18n.getMessage('navigationDescription',
-            [results[i].numRequests,
-            results[i].average]));
-        p.appendChild(em);
-        p.appendChild(code);
-        p.appendChild(text);
-        li.appendChild(p);
-        ol.appendChild(li);
-      }
-      section.innerHTML = '';
-      section.appendChild(ol);
-    });
+// Given an array of URLs, build a DOM list of these URLs in the
+// browser action popup.
+function buildPopupDom(mostVisitedURLs) {
+  var popupDiv = document.getElementById('mostVisited_div');
+  var ol = popupDiv.appendChild(document.createElement('ol'));
+
+  for (var i = 0; i < mostVisitedURLs.length; i++) {
+    var li = ol.appendChild(document.createElement('li'));
+    var a = li.appendChild(document.createElement('a'));
+    a.href = mostVisitedURLs[i].url;
+    a.appendChild(document.createTextNode(mostVisitedURLs[i].title));
+    a.addEventListener('click', onAnchorClick);
+  }
+}
+
+chrome.topSites.get(buildPopupDom);

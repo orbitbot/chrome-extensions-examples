@@ -11,5 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [extension.isAllowedIncognitoAccess](http://developer.chrome.com/extensions/extension.html#method-isAllowedIncognitoAccess)
-* [privacy.websites.thirdPartyCookiesAllowed](http://developer.chrome.com/extensions/privacy.html#property-websites-thirdPartyCookiesAllowed)
+* [extension.isAllowedIncognitoAccess](https://developer.chrome.com/extensions/extension#method-isAllowedIncognitoAccess)

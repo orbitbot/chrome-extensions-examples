@@ -11,9 +11,9 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [permissions.contains](http://developer.chrome.com/extensions/permissions.html#method-contains)
-* [permissions.onAdded](http://developer.chrome.com/extensions/permissions.html#event-onAdded)
-* [permissions.onRemoved](http://developer.chrome.com/extensions/permissions.html#event-onRemoved)
-* [permissions.remove](http://developer.chrome.com/extensions/permissions.html#method-remove)
-* [permissions.request](http://developer.chrome.com/extensions/permissions.html#method-request)
-* [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
+* [permissions.contains](https://developer.chrome.com/extensions/permissions#method-contains)
+* [permissions.onAdded](https://developer.chrome.com/extensions/permissions#event-onAdded)
+* [permissions.onRemoved](https://developer.chrome.com/extensions/permissions#event-onRemoved)
+* [permissions.remove](https://developer.chrome.com/extensions/permissions#method-remove)
+* [permissions.request](https://developer.chrome.com/extensions/permissions#method-request)
+* [tabs.create](https://developer.chrome.com/extensions/tabs#method-create)

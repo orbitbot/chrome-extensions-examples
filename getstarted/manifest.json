@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "One-click Kittens",
-  "description": "This extension demonstrates a 'browser action' with kittens.",
+  "name": "Getting started example",
+  "description": "This extension shows a Google Image search result for the current page",
   "version": "1.0",
 
   "browser_action": {
@@ -10,6 +10,7 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "https://secure.flickr.com/"
+    "activeTab",
+    "https://ajax.googleapis.com/"
   ]
 }

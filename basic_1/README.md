@@ -11,4 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browsingData.remove](http://developer.chrome.com/extensions/browsingData.html#method-remove)
+* [browsingData.remove](https://developer.chrome.com/extensions/browsingData#method-remove)

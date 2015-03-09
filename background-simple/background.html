@@ -6,9 +6,8 @@
 -->
 <html>
   <script>
-    var notification = webkitNotifications.createNotification("",
-        "Simple Background App",
-        "A background window has been created");
-    notification.show();
+    new Notification("Simple Background App", {
+      body: "A background window has been created"
+    });
   </script>
 </html>

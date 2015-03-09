@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [tabs.executeScript](http://developer.chrome.com/extensions/tabs.html#method-executeScript)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [tabs.executeScript](https://developer.chrome.com/extensions/tabs#method-executeScript)

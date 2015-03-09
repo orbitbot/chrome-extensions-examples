@@ -11,8 +11,8 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [experimental.devtools.audits.addCategory](http://developer.chrome.com/extensions/experimental.devtools.audits.html#method-addCategory)
-* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
-* [extension.sendRequest](http://developer.chrome.com/extensions/extension.html#method-sendRequest)
-* [tabs.executeScript](http://developer.chrome.com/extensions/tabs.html#method-executeScript)
-* [tabs.sendRequest](http://developer.chrome.com/extensions/tabs.html#method-sendRequest)
+* [experimental.devtools.audits.addCategory](https://developer.chrome.com/extensions/experimental.devtools.audits#method-addCategory)
+* [extension.onRequest](https://developer.chrome.com/extensions/extension#event-onRequest)
+* [extension.sendRequest](https://developer.chrome.com/extensions/extension#method-sendRequest)
+* [tabs.executeScript](https://developer.chrome.com/extensions/tabs#method-executeScript)
+* [tabs.sendRequest](https://developer.chrome.com/extensions/tabs#method-sendRequest)

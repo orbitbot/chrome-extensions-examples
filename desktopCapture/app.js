@@ -5,7 +5,7 @@
 function gotStream(stream) {
   console.log("Received local stream");
   var video = document.querySelector("video");
-  video.src = webkitURL.createObjectURL(stream);
+  video.src = URL.createObjectURL(stream);
   localstream = stream;
   stream.onended = function() { console.log("Ended"); };
 }
@@ -38,3 +38,9 @@ document.querySelector('#cancel').addEventListener('click', function(e) {
     chrome.desktopCapture.cancelChooseDesktopMedia(pending_request_id);
   }
 });
+
+document.querySelector('#startFromBackgroundPage')
+    .addEventListener('click', function(e) {
+      chrome.runtime.sendMessage(
+          {}, function(response) { console.log(response.farewell); });
+    });

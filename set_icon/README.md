@@ -11,10 +11,10 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [pageAction.hide](http://developer.chrome.com/extensions/pageAction.html#method-hide)
-* [pageAction.onClicked](http://developer.chrome.com/extensions/pageAction.html#event-onClicked)
-* [pageAction.setIcon](http://developer.chrome.com/extensions/pageAction.html#method-setIcon)
-* [pageAction.setTitle](http://developer.chrome.com/extensions/pageAction.html#method-setTitle)
-* [pageAction.show](http://developer.chrome.com/extensions/pageAction.html#method-show)
-* [tabs.onSelectionChanged](http://developer.chrome.com/extensions/tabs.html#event-onSelectionChanged)
-* [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
+* [pageAction.hide](https://developer.chrome.com/extensions/pageAction#method-hide)
+* [pageAction.onClicked](https://developer.chrome.com/extensions/pageAction#event-onClicked)
+* [pageAction.setIcon](https://developer.chrome.com/extensions/pageAction#method-setIcon)
+* [pageAction.setTitle](https://developer.chrome.com/extensions/pageAction#method-setTitle)
+* [pageAction.show](https://developer.chrome.com/extensions/pageAction#method-show)
+* [tabs.onSelectionChanged](https://developer.chrome.com/extensions/tabs#event-onSelectionChanged)
+* [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)

@@ -11,4 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [tabs.executeScript](http://developer.chrome.com/extensions/tabs.html#method-executeScript)
+* [tabs.executeScript](https://developer.chrome.com/extensions/tabs#method-executeScript)

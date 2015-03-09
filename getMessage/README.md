@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [i18n.getAcceptLanguages](http://developer.chrome.com/extensions/i18n.html#method-getAcceptLanguages)
-* [i18n.getMessage](http://developer.chrome.com/extensions/i18n.html#method-getMessage)
+* [i18n.getAcceptLanguages](https://developer.chrome.com/extensions/i18n#method-getAcceptLanguages)
+* [i18n.getMessage](https://developer.chrome.com/extensions/i18n#method-getMessage)

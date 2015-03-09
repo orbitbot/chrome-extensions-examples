@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [browserAction.setIcon](http://developer.chrome.com/extensions/browserAction.html#method-setIcon)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [browserAction.setIcon](https://developer.chrome.com/extensions/browserAction#method-setIcon)

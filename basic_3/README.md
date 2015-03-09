@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [signedInDevices.get](http://developer.chrome.com/extensions/signedInDevices.html#method-get)
-* [signedInDevices.onDeviceInfoChange](http://developer.chrome.com/extensions/signedInDevices.html#event-onDeviceInfoChange)
+* [signedInDevices.get](https://developer.chrome.com/extensions/signedInDevices#method-get)
+* [signedInDevices.onDeviceInfoChange](https://developer.chrome.com/extensions/signedInDevices#event-onDeviceInfoChange)

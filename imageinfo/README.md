@@ -11,7 +11,7 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [contextMenus.create](http://developer.chrome.com/extensions/contextMenus.html#method-create)
-* [tabs.getCurrent](http://developer.chrome.com/extensions/tabs.html#method-getCurrent)
-* [windows.create](http://developer.chrome.com/extensions/windows.html#method-create)
-* [windows.update](http://developer.chrome.com/extensions/windows.html#method-update)
+* [contextMenus.create](https://developer.chrome.com/extensions/contextMenus#method-create)
+* [tabs.getCurrent](https://developer.chrome.com/extensions/tabs#method-getCurrent)
+* [windows.create](https://developer.chrome.com/extensions/windows#method-create)
+* [windows.update](https://developer.chrome.com/extensions/windows#method-update)

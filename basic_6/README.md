@@ -1,15 +1,20 @@
 
-Top Sites
+Test IME
 =======
 
-Shows the top sites in a browser action
+A simple IME that converts all keystrokes to upper case.
 
-[Zipfile](http://developer.chrome.com/extensions/examples/api/topsites/basic.zip)
+[Zipfile](http://developer.chrome.com/extensions/examples/api/input.ime/basic.zip)
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 
 Calls
 -----
 
-* [tabs.create](http://developer.chrome.com/extensions/tabs.html#method-create)
-* [topSites.get](http://developer.chrome.com/extensions/topSites.html#method-get)
+* [input.ime](https://developer.chrome.com/extensions/input.ime)
+* [input.ime.commitText](https://developer.chrome.com/extensions/input.ime#method-commitText)
+* [input.ime.onActivate](https://developer.chrome.com/extensions/input.ime#event-onActivate)
+* [input.ime.onBlur](https://developer.chrome.com/extensions/input.ime#event-onBlur)
+* [input.ime.onDeactivated](https://developer.chrome.com/extensions/input.ime#event-onDeactivated)
+* [input.ime.onFocus](https://developer.chrome.com/extensions/input.ime#event-onFocus)
+* [input.ime.onKeyEvent](https://developer.chrome.com/extensions/input.ime#event-onKeyEvent)

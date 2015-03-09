@@ -43,7 +43,7 @@
 /* If the options page is loading don't do the transition. */
 .loading .overlay,
 .loading .overlay .page {
-  -webkit-transition-duration: 0 !important;
+  -webkit-transition-duration: 0ms !important;
 }
 
 /* keyframes used to pulse the overlay */

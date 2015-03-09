@@ -11,6 +11,6 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [commands.onCommand](http://developer.chrome.com/extensions/commands.html#event-onCommand)
-* [tabs.duplicate](http://developer.chrome.com/extensions/tabs.html#method-duplicate)
-* [tabs.update](http://developer.chrome.com/extensions/tabs.html#method-update)
+* [commands.onCommand](https://developer.chrome.com/extensions/commands#event-onCommand)
+* [tabs.duplicate](https://developer.chrome.com/extensions/tabs#method-duplicate)
+* [tabs.update](https://developer.chrome.com/extensions/tabs#method-update)

@@ -10,3 +10,11 @@ chrome.app.runtime.onLaunched.addListener(function() {
     }
   });
 });
+
+chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
+  chrome.desktopCapture.chooseDesktopMedia(
+      ["screen", "window"],
+      function(id) {
+        sendResponse({"id": id});
+      });
+});

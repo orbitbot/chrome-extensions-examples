@@ -2,16 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// Called when a message is passed.  We assume that the content script
-// wants to show the page action.
-function onRequest(request, sender, sendResponse) {
-  // Show the page action for the tab that the sender (content script)
-  // was on.
-  chrome.pageAction.show(sender.tab.id);
-
-  // Return nothing to let the connection be cleaned up.
-  sendResponse({});
-};
-
-// Listen for the content script to send a message to the background page.
-chrome.extension.onRequest.addListener(onRequest);
+// Update the declarative rules on install or upgrade.
+chrome.runtime.onInstalled.addListener(function() {
+  chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
+    chrome.declarativeContent.onPageChanged.addRules([{
+      conditions: [
+        // When a page contains a <video> tag...
+        new chrome.declarativeContent.PageStateMatcher({
+          css: ["video"]
+        })
+      ],
+      // ... show the page action.
+      actions: [new chrome.declarativeContent.ShowPageAction() ]
+    }]);
+  });
+});

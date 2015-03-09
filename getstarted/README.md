@@ -1,8 +1,8 @@
 
-One-click Kittens
+Getting started example
 =======
 
-This extension demonstrates a 'browser action' with kittens.
+This extension shows a Google Image search result for the current page
 
 [Zipfile](http://developer.chrome.com/extensions/examples/tutorials/getstarted.zip)
 
@@ -11,3 +11,4 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
+* [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)

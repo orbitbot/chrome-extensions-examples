@@ -11,13 +11,12 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.onClicked](http://developer.chrome.com/extensions/browserAction.html#event-onClicked)
-* [browserAction.setIcon](http://developer.chrome.com/extensions/browserAction.html#method-setIcon)
-* [browserAction.setTitle](http://developer.chrome.com/extensions/browserAction.html#method-setTitle)
-* [debugger.attach](http://developer.chrome.com/extensions/debugger.html#method-attach)
-* [debugger.detach](http://developer.chrome.com/extensions/debugger.html#method-detach)
-* [debugger.onDetach](http://developer.chrome.com/extensions/debugger.html#event-onDetach)
-* [debugger.onEvent](http://developer.chrome.com/extensions/debugger.html#event-onEvent)
-* [debugger.sendCommand](http://developer.chrome.com/extensions/debugger.html#method-sendCommand)
-* [runtime.lastError](http://developer.chrome.com/extensions/runtime.html#property-lastError)
-* [runtime.lastError.message](http://developer.chrome.com/extensions/runtime.html#property-lastError-message)
+* [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [browserAction.setIcon](https://developer.chrome.com/extensions/browserAction#method-setIcon)
+* [browserAction.setTitle](https://developer.chrome.com/extensions/browserAction#method-setTitle)
+* [debugger.attach](https://developer.chrome.com/extensions/debugger#method-attach)
+* [debugger.detach](https://developer.chrome.com/extensions/debugger#method-detach)
+* [debugger.onDetach](https://developer.chrome.com/extensions/debugger#event-onDetach)
+* [debugger.onEvent](https://developer.chrome.com/extensions/debugger#event-onEvent)
+* [debugger.sendCommand](https://developer.chrome.com/extensions/debugger#method-sendCommand)
+* [runtime.lastError](https://developer.chrome.com/extensions/runtime#property-lastError)

@@ -11,9 +11,9 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [browserAction.setIcon](http://developer.chrome.com/extensions/browserAction.html#method-setIcon)
-* [runtime.connect](http://developer.chrome.com/extensions/runtime.html#method-connect)
-* [runtime.onConnect](http://developer.chrome.com/extensions/runtime.html#event-onConnect)
-* [tts.getVoices](http://developer.chrome.com/extensions/tts.html#method-getVoices)
-* [tts.speak](http://developer.chrome.com/extensions/tts.html#method-speak)
-* [tts.stop](http://developer.chrome.com/extensions/tts.html#method-stop)
+* [browserAction.setIcon](https://developer.chrome.com/extensions/browserAction#method-setIcon)
+* [runtime.connect](https://developer.chrome.com/extensions/runtime#method-connect)
+* [runtime.onConnect](https://developer.chrome.com/extensions/runtime#event-onConnect)
+* [tts.getVoices](https://developer.chrome.com/extensions/tts#method-getVoices)
+* [tts.speak](https://developer.chrome.com/extensions/tts#method-speak)
+* [tts.stop](https://developer.chrome.com/extensions/tts#method-stop)

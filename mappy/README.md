@@ -11,12 +11,12 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [extension.getBackgroundPage](http://developer.chrome.com/extensions/extension.html#method-getBackgroundPage)
-* [extension.onRequest](http://developer.chrome.com/extensions/extension.html#event-onRequest)
-* [pageAction.hide](http://developer.chrome.com/extensions/pageAction.html#method-hide)
-* [pageAction.setTitle](http://developer.chrome.com/extensions/pageAction.html#method-setTitle)
-* [pageAction.show](http://developer.chrome.com/extensions/pageAction.html#method-show)
-* [tabs.onSelectionChanged](http://developer.chrome.com/extensions/tabs.html#event-onSelectionChanged)
-* [tabs.onUpdated](http://developer.chrome.com/extensions/tabs.html#event-onUpdated)
-* [tabs.query](http://developer.chrome.com/extensions/tabs.html#method-query)
-* [tabs.sendRequest](http://developer.chrome.com/extensions/tabs.html#method-sendRequest)
+* [extension.getBackgroundPage](https://developer.chrome.com/extensions/extension#method-getBackgroundPage)
+* [extension.onRequest](https://developer.chrome.com/extensions/extension#event-onRequest)
+* [pageAction.hide](https://developer.chrome.com/extensions/pageAction#method-hide)
+* [pageAction.setTitle](https://developer.chrome.com/extensions/pageAction#method-setTitle)
+* [pageAction.show](https://developer.chrome.com/extensions/pageAction#method-show)
+* [tabs.onSelectionChanged](https://developer.chrome.com/extensions/tabs#event-onSelectionChanged)
+* [tabs.onUpdated](https://developer.chrome.com/extensions/tabs#event-onUpdated)
+* [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)
+* [tabs.sendRequest](https://developer.chrome.com/extensions/tabs#method-sendRequest)

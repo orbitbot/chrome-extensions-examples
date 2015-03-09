@@ -11,5 +11,5 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [processes.onUpdatedWithMemory](http://developer.chrome.com/extensions/processes.html#event-onUpdatedWithMemory)
-* [processes.terminate](http://developer.chrome.com/extensions/processes.html#method-terminate)
+* [processes.onUpdatedWithMemory](https://developer.chrome.com/extensions/processes#event-onUpdatedWithMemory)
+* [processes.terminate](https://developer.chrome.com/extensions/processes#method-terminate)

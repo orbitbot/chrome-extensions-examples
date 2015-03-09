@@ -96,7 +96,6 @@ chrome.runtime.onStartup.addListener(function() {
   loadSavedState(function(state) { setState(state); });
 });
 
-// TODO(derat): Remove this once http://crbug.com/222473 is fixed.
-chrome.windows.onCreated.addListener(function() {
+chrome.runtime.onInstalled.addListener(function(details) {
   loadSavedState(function(state) { setState(state); });
 });

@@ -11,8 +11,8 @@ Content is licensed under the [Google BSD License](http://code.google.com/google
 Calls
 -----
 
-* [declarativeWebRequest.IgnoreRules](http://developer.chrome.com/extensions/declarativeWebRequest.html#type-IgnoreRules)
-* [declarativeWebRequest.RedirectRequest](http://developer.chrome.com/extensions/declarativeWebRequest.html#type-RedirectRequest)
-* [declarativeWebRequest.RequestMatcher](http://developer.chrome.com/extensions/declarativeWebRequest.html#type-RequestMatcher)
-* [runtime.lastError](http://developer.chrome.com/extensions/runtime.html#property-lastError)
-* [runtime.onInstalled](http://developer.chrome.com/extensions/runtime.html#event-onInstalled)
+* [declarativeWebRequest.IgnoreRules](https://developer.chrome.com/extensions/declarativeWebRequest#type-IgnoreRules)
+* [declarativeWebRequest.RedirectRequest](https://developer.chrome.com/extensions/declarativeWebRequest#type-RedirectRequest)
+* [declarativeWebRequest.RequestMatcher](https://developer.chrome.com/extensions/declarativeWebRequest#type-RequestMatcher)
+* [runtime.lastError](https://developer.chrome.com/extensions/runtime#property-lastError)
+* [runtime.onInstalled](https://developer.chrome.com/extensions/runtime#event-onInstalled)

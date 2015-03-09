@@ -25,12 +25,12 @@ function updateBadgeOnErrorStatus() {
 var lastNotification = null;
 function notifyStatusChange(treeState, status) {
   if (lastNotification)
-    lastNotification.cancel();
+    lastNotification.close();
 
-  var notification = webkitNotifications.createNotification(
-    chrome.extension.getURL("icon.png"), "Tree is " + treeState, status);
-  lastNotification = notification;
-  notification.show();
+  lastNotification = new Notification("Tree is " + treeState, {
+    icon: chrome.extension.getURL("icon.png"),
+    body: status
+  });
 }
 
 // The type parameter should be "open", "closed", or "throttled".
