@@ -7,6 +7,9 @@
   "permissions": [
     "fileSystemProvider"
   ],
+  "file_system_provider_capabilities": {
+    "source": "network"
+  },
   "background": {
     "scripts": [
       "background.js"

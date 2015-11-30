@@ -49,6 +49,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (scopeRadios[i].value == zoomSettings.scope)
           scopeRadios[i].checked = true;
       }
+
+      var percentDefaultZoom =
+          parseFloat(zoomSettings.defaultZoomFactor) * 100;
+      document.getElementById('defaultLabel').textContent =
+          'Default: ' + percentDefaultZoom.toFixed(1) + '%';
     });
 
     chrome.tabs.getZoom(tabId, displayZoomLevel);
@@ -92,7 +97,7 @@ function doZoomDefault() {
   if (tabId == -1)
     return;
 
-  chrome.tabs.setZoom(tabId, 1.0, function() {
+  chrome.tabs.setZoom(tabId, 0, function() {
     if (chrome.runtime.lastError)
       console.log('[ZoomDemoExtension] ' + chrome.runtime.lastError.message);
   });

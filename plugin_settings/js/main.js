@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Main entry point that creates a new plug-in list on document
+ * @fileoverview Main entry point that creates a new plugin list on document
  * load.
  */
 

@@ -10,7 +10,7 @@ var SHORT_CONTENTS = 'Just another example.';
 var LONGER_CONTENTS = 'It works!\nEverything gets displayed correctly.';
 
 var METADATA = {
-  '/': {isDirectory: true, name: '/', size: 0,
+  '/': {isDirectory: true, name: '', size: 0,
       modificationTime: MODIFICATION_DATE},
   '/file1.txt': {isDirectory: false, name: 'file1.txt',
       size: LONGER_CONTENTS.length, modificationTime: MODIFICATION_DATE,
@@ -99,21 +99,41 @@ function onReadFileRequested(options, onSuccess, onError) {
   onSuccess(buffer, false /* Last call. */);
 }
 
-// Mount the file system.
-chrome.runtime.onInstalled.addListener(function(details) {
+function onMountRequested(onSuccess, onError) {
   chrome.fileSystemProvider.mount(
       {fileSystemId: 'sample-file-system', displayName: 'Sample File System'},
-      function() {},
-      function() { console.error('Failed to mount.'); });
-});
+      function() {
+        if (chrome.runtime.lastError) {
+          onError(chrome.runtime.lastError.message);
+          console.error('Failed to mount because of: ' +
+              chrome.runtime.lastError.message);
+          return;
+        }
+        onSuccess();
+      });
+}
+
+function onUnmountRequested(options, onSuccess, onError) {
+  chrome.fileSystemProvider.unmount(
+      {fileSystemId: options.fileSystemId},
+      function() {
+        if (chrome.runtime.lastError) {
+          onError(chrome.runtime.lastError.message);
+          console.error('Failed to unmount because of: ' +
+              chrome.runtime.lastError.message);
+          return;
+        }
+        onSuccess();
+      });
+}
 
 chrome.fileSystemProvider.onGetMetadataRequested.addListener(
     onGetMetadataRequested);
 chrome.fileSystemProvider.onReadDirectoryRequested.addListener(
     onReadDirectoryRequested);
-chrome.fileSystemProvider.onOpenFileRequested.addListener(
-    onOpenFileRequested);
+chrome.fileSystemProvider.onOpenFileRequested.addListener(onOpenFileRequested);
 chrome.fileSystemProvider.onCloseFileRequested.addListener(
     onCloseFileRequested);
-chrome.fileSystemProvider.onReadFileRequested.addListener(
-    onReadFileRequested);
+chrome.fileSystemProvider.onReadFileRequested.addListener(onReadFileRequested);
+chrome.fileSystemProvider.onMountRequested.addListener(onMountRequested);
+chrome.fileSystemProvider.onUnmountRequested.addListener(onUnmountRequested);

@@ -310,7 +310,7 @@ advancedFonts.getEffectiveFont = function(script, genericFamily, callback) {
 /**
  * Refreshes the UI controls related to a font setting.
  *
- * @param {{fontList: HTMLSelectElement, samples: Array.<HTMLElement>}}
+ * @param {{fontList: HTMLSelectElement, samples: Array<HTMLElement>}}
  *     fontSetting The setting object (see advancedFonts.fontSettings).
  * @param {string} font The value of the font setting.
  * @param {boolean} controllable Whether the font setting can be controlled
@@ -329,7 +329,7 @@ advancedFonts.refreshFont = function(
 /**
  * Refreshes the UI controls related to a font size setting.
  *
- * @param {{label: HTMLElement, slider: Slider, samples: Array.<HTMLElement>}}
+ * @param {{label: HTMLElement, slider: Slider, samples: Array<HTMLElement>}}
  *     fontSizeSetting The setting object (see advancedFonts.fontSizeSettings).
  * @param size The value of the font size setting.
  * @param controllable Whether the setting can be controlled by this extension.
@@ -391,7 +391,7 @@ advancedFonts.getSelectedFont = function(fontList) {
 
 /**
  * Populates the font lists.
- * @param {Array.<{fontId: string, displayName: string>} fonts The list of
+ * @param {Array<{fontId: string, displayName: string>} fonts The list of
  *     fonts on the system.
  */
 advancedFonts.populateFontLists = function(fonts) {

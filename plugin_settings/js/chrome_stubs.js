@@ -48,7 +48,7 @@ chrome.i18n.getMessage = function(id) {
 }
 
 /**
- * Creates a new Settings object with a set of rules for a dummy plug-in.
+ * Creates a new Settings object with a set of rules for a dummy plugin.
  * Because we provide stub implementations for the Chrome contentSettings
  * extension API, we know that the methods will execute immediately instead of
  * asynchronously.

@@ -12,14 +12,14 @@ cr.define('pluginSettings', function() {
 
   /**
    * Creates a new content settings model.
-   * @param {string} plugin Identifies the plug-in for which this object stores
+   * @param {string} plugin Identifies the plugin for which this object stores
    *     settings.
    * @constructor
    * @extends {cr.EventTarget}
    */
   function Settings(plugin) {
     /**
-     * Identifies the plug-in for which this object stores settings.
+     * Identifies the plugin for which this object stores settings.
      * @type {string}
      * @private
      */
@@ -195,7 +195,7 @@ cr.define('pluginSettings', function() {
     },
 
     /**
-     * @return {!Array} A list of all content setting rules for this plug-in.
+     * @return {!Array} A list of all content setting rules for this plugin.
      */
     getAll: function() {
       var rules = [];

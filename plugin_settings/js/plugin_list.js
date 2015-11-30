@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Defines a list of plug-ins that shows for each plug-in a list
+ * @fileoverview Defines a list of plugins that shows for each plugin a list
  * of content setting rules.
  */
 
@@ -24,27 +24,27 @@ cr.define('pluginSettings.ui', function() {
     HIDDEN: 'hidden',
 
     /**
-     * A plug-in list.
+     * A plugin list.
      */
     PLUGIN_LIST: 'plugin-list',
 
     /**
-     * Set on a plug-in list entry to show details about the plug-in.
+     * Set on a plugin list entry to show details about the plugin.
      */
     PLUGIN_SHOW_DETAILS: 'plugin-show-details',
 
     /**
-     * The plug-in name.
+     * The plugin name.
      */
     PLUGIN_NAME: 'plugin-name',
 
     /**
-     * The number of rules set for a plug-in.
+     * The number of rules set for a plugin.
      */
     NUM_RULES: 'num-rules',
 
     /**
-     * The element containing details about a plug-in.
+     * The element containing details about a plugin.
      */
     PLUGIN_DETAILS: 'plugin-details',
 
@@ -82,9 +82,9 @@ cr.define('pluginSettings.ui', function() {
   }
 
   /**
-   * Creates a new plug-in list item element.
-   * @param {!PluginList} list The plug-in list containing this item.
-   * @param {!Object} info Information about the plug-in.
+   * Creates a new plugin list item element.
+   * @param {!PluginList} list The plugin list containing this item.
+   * @param {!Object} info Information about the plugin.
    * @constructor
    * @extends {cr.ui.ListItem}
    */
@@ -92,14 +92,14 @@ cr.define('pluginSettings.ui', function() {
     var el = cr.doc.createElement('li');
 
     /**
-     * The plug-in list containing this item.
+     * The plugin list containing this item.
      * @type {!PluginList}
      * @private
      */
     el.list_ = list;
 
     /**
-     * Information about the plug-in.
+     * Information about the plugin.
      * @type {!Object}
      * @private
      */
@@ -114,7 +114,7 @@ cr.define('pluginSettings.ui', function() {
     __proto__: ListItem.prototype,
 
     /**
-     * The element containing details about the plug-in. This is only null in
+     * The element containing details about the plugin. This is only null in
      * the prototype.
      * @type {?HTMLDivElement}
      * @private
@@ -175,7 +175,7 @@ cr.define('pluginSettings.ui', function() {
     },
 
     /**
-     * Create the list of content setting rules applying to this plug-in.
+     * Create the list of content setting rules applying to this plugin.
      * @param {!pluginSettings.Settings} The settings object storing the content
      *     setting rules.
      * @private
@@ -237,7 +237,7 @@ cr.define('pluginSettings.ui', function() {
   };
 
   /**
-   * Creates a new plug-in list.
+   * Creates a new plugin list.
    * @constructor
    * @extends {cr.ui.List}
    */
@@ -259,8 +259,8 @@ cr.define('pluginSettings.ui', function() {
     },
 
     /**
-     * Creates a new plug-in list item.
-     * @param {!Object} info Information about the plug-in.
+     * Creates a new plugin list item.
+     * @param {!Object} info Information about the plugin.
      */
     createItem: function(info) {
       return new PluginListItem(this, info);

@@ -29,20 +29,6 @@ const cr = (function() {
   const isLinux = /Linux/.test(navigator.userAgent);
 
   /**
-   * Whether this uses GTK or not.
-   * @type {boolean}
-   */
-  const isGTK = typeof chrome.getVariableValue == 'function' &&
-        /GTK/.test(chrome.getVariableValue('toolkit'));
-
-  /**
-   * Whether this uses the views toolkit or not.
-   * @type {boolean}
-   */
-  const isViews = typeof chrome.getVariableValue == 'function' &&
-        /views/.test(chrome.getVariableValue('toolkit'));
-
-  /**
    * Sets the os and toolkit attributes in the <html> element so that platform
    * specific css rules can be applied.
    */
@@ -55,10 +41,6 @@ const cr = (function() {
       doc.documentElement.setAttribute('os', 'chromeos');
     if (isLinux)
       doc.documentElement.setAttribute('os', 'linux');
-    if (isGTK)
-      doc.documentElement.setAttribute('toolkit', 'gtk');
-    if (isViews)
-      doc.documentElement.setAttribute('toolkit', 'views');
   }
 
   /**
@@ -331,7 +313,6 @@ const cr = (function() {
     isMac: isMac,
     isWindows: isWindows,
     isLinux: isLinux,
-    isViews: isViews,
     enablePlatformSpecificCSSRules: enablePlatformSpecificCSSRules,
     define: define,
     defineProperty: defineProperty,

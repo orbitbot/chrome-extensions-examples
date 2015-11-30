@@ -19,10 +19,15 @@ function onAccessApproved(id) {
     console.log("Access rejected.");
     return;
   }
+
   navigator.webkitGetUserMedia({
-      audio:false,
-      video: { mandatory: { chromeMediaSource: "desktop",
-                            chromeMediaSourceId: id } }
+    audio:false,
+    video: {
+      mandatory: {
+        chromeMediaSource: "desktop",
+        chromeMediaSourceId: id,
+        maxWidth:screen.width,
+        maxHeight:screen.height} }
   }, gotStream, getUserMediaError);
 }
 

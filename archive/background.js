@@ -14,7 +14,7 @@ var volumes = {};
 
 // Defines a volume object that contains information about a mounted file
 // system.
-function Volume(entry, metadata, opt_openedFiles) {
+function Volume(entry, metadata, openedFiles) {
   // Used for restoring the opened file entry after resuming the event page.
   this.entry = entry;
 
@@ -29,25 +29,28 @@ function Volume(entry, metadata, opt_openedFiles) {
 
   // A map with currently opened files. The key is a requestId value from the
   // openFileRequested event, and the value is the file path.
-  this.openedFiles = opt_openedFiles ? opt_openedFiles : {};
+  this.openedFiles = openedFiles;
 };
 
 function onUnmountRequested(options, onSuccess, onError) {
-  if (Object.keys(volumes[options.fileSystemId].openedFiles).length != 0) {
-    onError('IN_USE');
-    return;
-  }
+  restoreState(options.fileSystemId, function() {
+    if (Object.keys(volumes[options.fileSystemId].openedFiles).length != 0) {
+      onError('IN_USE');
+      return;
+    }
 
-  chrome.fileSystemProvider.unmount(
-      {fileSystemId: options.fileSystemId},
-      function() {
-        delete volumes[options.fileSystemId];
-        saveState(); // Remove volume from local storage state.
-        onSuccess();
-      },
-      function() {
-        onError('FAILED');
-      });
+    chrome.fileSystemProvider.unmount(
+        {fileSystemId: options.fileSystemId},
+        function() {
+          if (chrome.runtime.lastError) {
+            onError(chrome.runtime.lastError.message);
+            return;
+          }
+          delete volumes[options.fileSystemId];
+          saveState();  // Remove volume from local storage state.
+          onSuccess();
+        });
+  }, onError);
 };
 
 function onGetMetadataRequested(options, onSuccess, onError) {
@@ -144,8 +147,7 @@ function saveState() {
   for (var volumeId in volumes) {
     var entryId = chrome.fileSystem.retainEntry(volumes[volumeId].entry);
     state[volumeId] = {
-      entryId: entryId,
-      openedFiles: volumes[volumeId].openedFiles
+      entryId: entryId
     };
   }
   chrome.storage.local.set({state: state});
@@ -154,7 +156,7 @@ function saveState() {
 // Restores metadata for the passed file system ID.
 function restoreState(fileSystemId, onSuccess, onError) {
   chrome.storage.local.get(['state'], function(result) {
-    // Check if metadata for the given file system is alread in memory.
+    // Check if metadata for the given file system is already in memory.
     if (volumes[fileSystemId]) {
       onSuccess();
       return;
@@ -165,9 +167,15 @@ function restoreState(fileSystemId, onSuccess, onError) {
         function(entry) {
           readMetadataFromFile(entry,
               function(metadata) {
-                volumes[fileSystemId] = new Volume(entry, metadata,
-                    result.state[fileSystemId].openedFiles);
-                onSuccess();
+                chrome.fileSystemProvider.get(fileSystemId, function(info) {
+                  if (chrome.runtime.lastError) {
+                    onError(chrome.runtime.lastError.message);
+                    return;
+                  }
+                  volumes[fileSystemId] = new Volume(entry, metadata,
+                      info.openedFiles);
+                  onSuccess();
+                });
               }, onError);
         });
   });
@@ -199,11 +207,17 @@ chrome.app.runtime.onLaunched.addListener(function(event) {
           // in order to be able to recover the metadata in case of
           // restarts, system crashes, etc.
           chrome.fileSystem.getDisplayPath(item.entry, function(displayPath) {
-            volumes[displayPath] = new Volume(item.entry, metadata);
+            volumes[displayPath] = new Volume(item.entry, metadata, []);
             chrome.fileSystemProvider.mount(
                 {fileSystemId: displayPath, displayName: item.entry.name},
-                function() { saveState(); },
-                function() { console.error('Failed to mount.'); });
+                function() {
+                  if (chrome.runtime.lastError) {
+                    console.error('Failed to mount because of: ' +
+                        chrome.runtime.lastError.message);
+                    return;
+                  };
+                  saveState();
+                });
           });
         },
         function(error) {
@@ -219,10 +233,6 @@ chrome.runtime.onStartup.addListener(function () {
     if (!result.state)
       return;
 
-    // Remove files opened before the profile shutdown from the local storage.
-    for (var volumeId in result.state) {
-      result.state[volumeId].openedFiles = {};
-    }
     chrome.storage.local.set({state: result.state});
   });
 });

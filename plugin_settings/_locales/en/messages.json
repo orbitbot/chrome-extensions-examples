@@ -3,7 +3,7 @@
     "message": "Per-plugin content settings"
   },
   "extDescription": {
-    "message": "Customize your content setting for different plug-ins."
+    "message": "Customize your content setting for different plugins."
   },
   "patternColumnHeader": {
     "message": "Hostname Pattern"

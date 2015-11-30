@@ -819,8 +819,8 @@ cr.define('cr.ui', function() {
      * Adds items to the list and {@code newCachedItems}.
      * @param {number} firstIndex The index of first item, inclusively.
      * @param {number} lastIndex The index of last item, exclusively.
-     * @param {Object.<string, ListItem>} cachedItems Old items cache.
-     * @param {Object.<string, ListItem>} newCachedItems New items cache.
+     * @param {Object<string, ListItem>} cachedItems Old items cache.
+     * @param {Object<string, ListItem>} newCachedItems New items cache.
      */
     addItems: function(firstIndex, lastIndex, cachedItems, newCachedItems) {
       var listItem;

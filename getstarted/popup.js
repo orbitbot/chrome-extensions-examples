@@ -7,7 +7,7 @@
  *
  * @param {function(string)} callback - called when the URL of the current tab
  *   is found.
- **/
+ */
 function getCurrentTabUrl(callback) {
   // Query filter to be passed to chrome.tabs.query - see
   // https://developer.chrome.com/extensions/tabs#method-query

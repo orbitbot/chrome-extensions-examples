@@ -2,7 +2,7 @@
 Per-plugin content settings
 =======
 
-Customize your content setting for different plug-ins.
+Customize your content setting for different plugins.
 
 [Zipfile](http://developer.chrome.com/extensions/examples/extensions/plugin_settings.zip)
 

@@ -11,9 +11,12 @@
   "file_handlers": {
     "fake": {
       "types": ["application/fake"],
-      "extensions": ["fake"],
-      "title": "Open fake archive"
+      "extensions": ["fake"]
     }
+  },
+  "file_system_provider_capabilities": {
+    "multiple_mounts": true,
+    "source": "file"
   },
   "app": {
     "background": {

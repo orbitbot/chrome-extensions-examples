@@ -115,8 +115,6 @@ cr.define('pluginSettings.ui', function() {
         input.placeholder = chrome.i18n.getMessage('addNewPattern');
       }
 
-      // TODO(stuartmorgan): Create an createEditableSelectCell abstracting
-      // this code.
       // Setting label for display mode. |pattern| will be null for the 'add new
       // exception' row.
       if (this.pattern) {

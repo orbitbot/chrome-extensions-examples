@@ -1,8 +1,6 @@
-/*
-Copyright (c) 2011 The Chromium Authors. All rights reserved.
-Use of this source code is governed by a BSD-style license that can be
-found in the LICENSE file.
-*/
+/* Copyright 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
 
 .raw-button,
 .raw-button:hover,
@@ -29,10 +27,6 @@ list > * {
 list:not([disabled]) > :hover {
   background-color: #e4ecf7;
 }
-
-/* TODO(stuartmorgan): Once this becomes the list style for other WebUI pages
- * these rules can be simplified (since they wont need to override other rules).
- */
 
 list:not([hasElementFocus]) > [selected],
 list:not([hasElementFocus]) > [lead][selected] {
@@ -75,7 +69,6 @@ list .deletable-item > :first-child {
 list .close-button {
   -webkit-transition: .15s opacity;
   background-color: transparent;
-  /* TODO(stuartmorgan): Replace with real images once they are available. */
   background-image: url("../images/close_bar.png");
   border: none;
   display: block;
@@ -119,6 +112,5 @@ list[inlineeditable] > [editing] [displaymode="static"] {
 }
 
 list > [editing] input:invalid {
-  /* TODO(stuartmorgan): Replace with validity badge */
   background-color: pink;
 }

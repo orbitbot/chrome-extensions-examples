@@ -1,8 +1,6 @@
-/**
- * Copyright (c) 2012 The Chromium Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file.
- **/
+// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
 
 // Checking for "chrome" availability allows this app code to be tested in
 // non-Chrome browsers, which is useful for example to test touch support with

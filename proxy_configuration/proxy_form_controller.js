@@ -167,7 +167,7 @@ ProxyFormController.prototype = {
 
 
   /**
-   * @return {Array.<string>} A list of hostnames that should bypass the proxy.
+   * @return {Array<string>} A list of hostnames that should bypass the proxy.
    */
   get bypassList() {
     return document.getElementById('bypassList').value.split(/\s*(?:,|^)\s*/m);
@@ -175,7 +175,7 @@ ProxyFormController.prototype = {
 
 
   /**
-   * @param {?Array.<string>} data A list of hostnames that should bypass
+   * @param {?Array<string>} data A list of hostnames that should bypass
    *     the proxy. If empty, the bypass list is emptied.
    */
   set bypassList(data) {

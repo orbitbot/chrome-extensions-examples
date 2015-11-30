@@ -22,7 +22,7 @@ function NavigationCollector() {
    * A list of currently pending requests, implemented as a hash of each
    * request's tab ID, frame ID, and URL in order to ensure uniqueness.
    *
-   * @type {Object.<string, {start: number}>}
+   * @type {Object<string, {start: number}>}
    * @private
    */
   this.pending_ = {};
@@ -31,7 +31,7 @@ function NavigationCollector() {
    * A list of completed requests, implemented as a hash of each
    * request's tab ID, frame ID, and URL in order to ensure uniqueness.
    *
-   * @type {Object.<string, Array.<NavigationCollector.Request>>}
+   * @type {Object<string, Array<NavigationCollector.Request>>}
    * @private
    */
   this.completed_ = {};
@@ -40,7 +40,7 @@ function NavigationCollector() {
    * A list of requests that errored off, implemented as a hash of each
    * request's tab ID, frame ID, and URL in order to ensure uniqueness.
    *
-   * @type {Object.<string, Array.<NavigationCollector.Request>>}
+   * @type {Object<string, Array<NavigationCollector.Request>>}
    * @private
    */
   this.errored_ = {};
@@ -114,7 +114,7 @@ NavigationCollector.NavigationQualifier = {
 
 /**
  * @typedef {{url: string, transitionType: NavigationCollector.NavigationType,
- *     transitionQualifier: Array.<NavigationCollector.NavigationQualifier>,
+ *     transitionQualifier: Array<NavigationCollector.NavigationQualifier>,
  *     openedInNewTab: boolean, source: {frameId: ?number, tabId: ?number},
  *     duration: number}}
  */
@@ -414,7 +414,7 @@ NavigationCollector.prototype = {
 ///////////////////////////////////////////////////////////////////////////////
 
   /**
-   * @return {Object.<string, NavigationCollector.Request>} The complete list of
+   * @return {Object<string, NavigationCollector.Request>} The complete list of
    *     successful navigation requests.
    */
   get completed() {
@@ -423,7 +423,7 @@ NavigationCollector.prototype = {
 
 
   /**
-   * @return {Object.<string, Navigationcollector.Request>} The complete list of
+   * @return {Object<string, Navigationcollector.Request>} The complete list of
    *     unsuccessful navigation requests.
    */
   get errored() {
@@ -437,7 +437,7 @@ NavigationCollector.prototype = {
    * @param {number=} num The number of successful navigation requests to
    *     return. If 0 is passed in, or the argument left off entirely, all
    *     successful requests are returned.
-   * @return {Object.<string, NavigationCollector.Request>} The list of
+   * @return {Object<string, NavigationCollector.Request>} The list of
    *     successful navigation requests, sorted in decending order of frequency.
    */
   getMostRequestedUrls: function(num) {
@@ -451,7 +451,7 @@ NavigationCollector.prototype = {
    * @param {number=} num The number of unsuccessful navigation requests to
    *     return. If 0 is passed in, or the argument left off entirely, all
    *     successful requests are returned.
-   * @return {Object.<string, NavigationCollector.Request>} The list of
+   * @return {Object<string, NavigationCollector.Request>} The list of
    *     unsuccessful navigation requests, sorted in decending order
    *     of frequency.
    */
@@ -467,7 +467,7 @@ NavigationCollector.prototype = {
    * @param {number=} num The number of navigation requests to return. If
    *     0 is passed in, or the argument left off entirely, all requests
    *     are returned.
-   * @return {Object.<string, NavigationCollector.Request>} The list of
+   * @return {Object<string, NavigationCollector.Request>} The list of
    *     navigation requests, sorted in decending order of frequency.
    * @private
    */

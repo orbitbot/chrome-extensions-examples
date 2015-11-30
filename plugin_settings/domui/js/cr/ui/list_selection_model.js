@@ -243,7 +243,7 @@ cr.define('cr.ui', function() {
 
     /**
      * Adjusts the selection after reordering of items in the table.
-     * @param {!Array.<number>} permutation The reordering permutation.
+     * @param {!Array<number>} permutation The reordering permutation.
      */
     adjustToReordering: function(permutation) {
       var oldLeadIndex = this.leadIndex;
