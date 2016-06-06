@@ -9,15 +9,18 @@
     -webkit-flex-direction: column;
   }
   video {
-    width: 640px;
-    height: 480px;
+    width: 480px;
+    height: 360px;
     border: 1px solid #e2e2e2;
     box-shadow: 0 1px 1px rgba(0,0,0,0.2);
   }
 </style>
 </head>
 <body>
-  <video id="video" autoplay></video>
+  <div>
+    <video id="video" autoplay></video>
+    <video id="remoteVideo" autoplay></video>
+  </div>
   <p>
     <button id="start">Start</button>
     <button id="cancel">Cancel</button>

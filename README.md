@@ -111,5 +111,7 @@ Example projects
 * [Top Sites](/basic_7/)
 * [Typed URL History](/showHistory/)
 * [WebNavigation Tech Demo](/basic_8/)
+* [Webview transparency](/capturevisibleregion/)
 * [`extension.isAllowedFileSchemeAccess` and `extension.isAllowedIncognitoAccess` Example](/isAllowedAccess/)
 * [iGoogle new tab page](/override_igoogle/)
+* [tabCast](/tabCast/)
