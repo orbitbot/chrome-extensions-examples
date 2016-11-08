@@ -186,9 +186,9 @@ function buildPreview(doc) {
 // Show |url| in a new tab.
 function showUrl(url) {
   // Only allow http and https URLs.
-  if (url.indexOf('http:') != 0 && url.indexOf('https:') != 0) {
+  if (!url.startsWith('http:') && !url.startsWith('https:'))
     return;
-  }
+
   chrome.tabs.create({url: url});
 }
 
@@ -253,7 +253,7 @@ function iframeMessageHandler(e) {
           iframes[i].style.height = msg.size + 'px';
         } else if (msg.type == 'show') {
           var url = msg.url;
-          if (url.indexOf('http://news.google.com') == 0) {
+          if (url.startsWith('http://news.google.com')) {
             // If the URL is a redirect URL, strip of the destination and go to
             // that directly.  This is necessary because the Google news
             // redirector blocks use of the redirects in this case.

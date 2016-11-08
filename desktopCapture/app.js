@@ -60,12 +60,11 @@ function gotStream(stream) {
   video.src = URL.createObjectURL(stream);
   stream.onended = function() { console.log('Ended'); };
 
-  var servers = null;
-  pc1 = new webkitRTCPeerConnection(servers);
+  pc1 = new RTCPeerConnection();
   pc1.onicecandidate = function(event) {
     onIceCandidate(pc1, event);
   };
-  pc2 = new webkitRTCPeerConnection(servers);
+  pc2 = new RTCPeerConnection();
   pc2.onicecandidate = function(event) {
     onIceCandidate(pc2, event);
   };

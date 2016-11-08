@@ -37,7 +37,7 @@ function getFeedUrl() {
 
 function isGmailUrl(url) {
   // Return whether the URL starts with the Gmail prefix.
-  return url.indexOf(getGmailUrl()) == 0;
+  return url.startsWith(getGmailUrl());
 }
 
 // A "loading" animation displayed while we wait for the first response from

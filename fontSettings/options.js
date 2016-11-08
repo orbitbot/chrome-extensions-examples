@@ -218,7 +218,7 @@ advancedFonts.pendingChanges = new PendingChanges();
 advancedFonts.fontSettings = null;
 
 /**
- * Map from |fontSizeKey| to UI contols and data for its font size setting.
+ * Map from |fontSizeKey| to UI controls and data for its font size setting.
  */
 advancedFonts.fontSizeSettings = null;
 

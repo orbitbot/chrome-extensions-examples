@@ -192,7 +192,7 @@ cr.define('cr.ui', function() {
           if (e.keyCode == SPACE_KEY_CODE)
             return;
         // Protect all but the most basic navigation commands in anything else.
-        } else if (e.keyIdentifier != 'Up' && e.keyIdentifier != 'Down') {
+        } else if (e.key != 'ArrowUp' && e.key != 'ArrowDown') {
           return;
         }
       }
@@ -224,26 +224,26 @@ cr.define('cr.ui', function() {
         }
       }
 
-      switch (e.keyIdentifier) {
+      switch (e.key) {
         case 'Home':
           newIndex = this.getFirstIndex();
           break;
         case 'End':
           newIndex = this.getLastIndex();
           break;
-        case 'Up':
+        case 'ArrowUp':
           newIndex = leadIndex == -1 ?
               this.getLastIndex() : this.getIndexAbove(leadIndex);
           break;
-        case 'Down':
+        case 'ArrowDown':
           newIndex = leadIndex == -1 ?
               this.getFirstIndex() : this.getIndexBelow(leadIndex);
           break;
-        case 'Left':
+        case 'ArrrowLeft':
           newIndex = leadIndex == -1 ?
               this.getLastIndex() : this.getIndexBefore(leadIndex);
           break;
-        case 'Right':
+        case 'ArrowRight':
           newIndex = leadIndex == -1 ?
               this.getFirstIndex() : this.getIndexAfter(leadIndex);
           break;

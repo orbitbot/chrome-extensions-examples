@@ -10,6 +10,6 @@ chrome.downloads.onDeterminingFilename.addListener(function(item, suggest) {
            conflict_action: 'overwrite',
            conflictAction: 'overwrite'});
   // conflict_action was renamed to conflictAction in
-  // http://src.chromium.org/viewvc/chrome?view=rev&revision=214133
+  // https://chromium.googlesource.com/chromium/src/+/f1d784d6938b8fe8e0d257e41b26341992c2552c
   // which was first picked up in branch 1580.
 });

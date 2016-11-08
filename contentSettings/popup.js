@@ -26,9 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
     incognito = current.incognito;
     url = current.url;
     var types = ['cookies', 'images', 'javascript', 'location', 'plugins',
-                 'popups', 'notifications', 'fullscreen', 'mouselock',
-                 'microphone', 'camera', 'unsandboxedPlugins',
-                 'automaticDownloads'];
+                 'popups', 'notifications', 'microphone', 'camera',
+                 'unsandboxedPlugins', 'automaticDownloads'];
     types.forEach(function(type) {
       // HACK: [type] is not recognised by the docserver's sample crawler, so
       // mention an explicit
