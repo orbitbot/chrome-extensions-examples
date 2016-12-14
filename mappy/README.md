@@ -8,6 +8,8 @@ Finds addresses in the web page you're on and pops up a map window.
 
 Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
 
+
+
 Calls
 -----
 
@@ -20,3 +22,8 @@ Calls
 * [tabs.onUpdated](https://developer.chrome.com/extensions/tabs#event-onUpdated)
 * [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)
 * [tabs.sendRequest](https://developer.chrome.com/extensions/tabs#method-sendRequest)
+
+
+API Key
+-----
+You can generate a API key [here](https://developers.google.com/maps/documentation/static-maps/) and edit popup.js
