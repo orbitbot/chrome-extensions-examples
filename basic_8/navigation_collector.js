@@ -102,7 +102,7 @@ NavigationCollector.NavigationType = {
  * * SERVER_REDIRECT: Redirected by the server via a 301/302 response.
  *
  * * FORWARD_BACK: User used the forward or back buttons to navigate through
- *   her browsing history.
+ *   their browsing history.
  *
  * @enum {string}
  */

@@ -1,4 +1,7 @@
 
+
+**This is not an official mirror of the Chrome extension examples. Report any issues with the examples themselves to Google's issue trackers/forums.**
+
 chrome-extensions-examples
 ==========================
 
