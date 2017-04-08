@@ -18,8 +18,8 @@ div[role='main'] {
   padding: 10px;
   width: 563px;
   box-shadow: inset 0px 2px 5px rgba(0,0,0,0.5);
-  -webkit-transition: background-color 0.5s ease-out;
   overflow: hidden;
+  transition: background-color 0.5s ease-out;
 }
 
 div[role='main'].incognito {
@@ -27,12 +27,12 @@ div[role='main'].incognito {
 }
 
 form {
+  transition: transform 0.25s ease;
   width: 563px;
-  -webkit-transition: -webkit-transform 0.25s ease;
 }
 
 form.offscreen {
-  -webkit-transform: translateX(-600px);
+  transform: translateX(-600px);
 }
 
 fieldset {
@@ -52,7 +52,7 @@ form > fieldset {
   border: 1px solid transparent;
   padding: 10px 10px 10px 30px;
   margin: 5px 0;
-  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 form > fieldset:hover {
@@ -74,9 +74,9 @@ section {
 }
 
 section fieldset:not(:first-child):not(:last-child) {
-  -webkit-transition: all 0.5s ease;
-  overflow: hidden;
   max-height: 1.6em;
+  overflow: hidden;
+  transition: all 0.5s ease;
 }
 
 section.single fieldset:not(:first-child):not(:last-child) {
@@ -134,7 +134,7 @@ input.port {
 section label,
 section legend {
   color:  #999;
-  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
 }
 
 .incognito section label,
@@ -146,7 +146,7 @@ section legend {
 .active section legend,
 form > fieldset > label  {
   color:  #000;
-  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
 }
 
 .incognito .active section label,
@@ -184,8 +184,8 @@ button {
   border-radius: 5px;
   color: #FFF;
   font: 1.5em/1.2 Helvetica Neue, sans-serif;
-  -webkit-transition: all 1.0s ease;
-  -webkit-transform: scale(0);
+  transform: scale(0);
+  transition: all 1.0s ease;
 }
 
 .overlay a {
@@ -194,5 +194,5 @@ button {
 
 .overlay.visible {
   opacity: 1;
-  -webkit-transform: scale(1);
+  transform: scale(1);
 }

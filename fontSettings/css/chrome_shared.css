@@ -10,8 +10,8 @@
 }
 
 html.loading * {
-  -webkit-transition-delay: 0ms !important;
-  -webkit-transition-duration: 0ms !important;
+  transition-delay: 0ms !important;
+  transition-duration: 0ms !important;
 }
 
 body {

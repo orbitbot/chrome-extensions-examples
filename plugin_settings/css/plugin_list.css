@@ -46,7 +46,6 @@ body {
 }
 
 .plugin-details {
-  -webkit-transition: height .5s ease-in-out;
   background: #f5f8f8;
   border: 1px solid #b2b2b2;
   border-radius: 5px;
@@ -54,11 +53,12 @@ body {
   height: 0;
   width: 500px;
   opacity: 0;
+  transition: height .5s ease-in-out;
 }
 
 .plugin-measure-details .plugin-details {
-  -webkit-transition: none;
   height: auto;
+  transition: none;
   visibility: hidden;
 }
 

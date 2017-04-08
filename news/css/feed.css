@@ -58,7 +58,7 @@ a {
   margin: 0;
   min-width: 500px;
   padding: 0;
-  -webkit-transition: height 0.2s ease-out;
+  transition: height 0.2s ease-out;
 }
 #title {
   display: block;

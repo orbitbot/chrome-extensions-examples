@@ -4,5 +4,5 @@
  "background": {"scripts": ["bg.js"], "persistent": false},
  "options_page": "options.html",
  "permissions": ["downloads"],
- "content_security_policy": "script-src 'self' chrome-extension-resource: 'unsafe-eval'; default-src 'self'",
+ "content_security_policy": "script-src 'self'; default-src 'self'",
  "manifest_version": 2}

@@ -7,7 +7,6 @@
   -webkit-box-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-pack: center;
-  -webkit-transition: 200ms opacity;
   background-color: rgba(255, 255, 255, 0.75);
   bottom: 0;
   display: -webkit-box;
@@ -17,20 +16,20 @@
   position: fixed;
   right: 0;
   top: 0;
+  transition: 200ms opacity;
 }
 
 /* Used to slide in the overlay. */
 .overlay.transparent .page {
   /* TODO(flackr): Add perspective(500px) rotateX(5deg) when accelerated
    * compositing is enabled on chrome:// pages. See http://crbug.com/116800. */
-  -webkit-transform: scale(0.99) translateY(-20px);
+  transform: scale(0.99) translateY(-20px);
 }
 
 /* The foreground dialog. */
 .overlay .page {
   -webkit-border-radius: 3px;
   -webkit-box-orient: vertical;
-  -webkit-transition: 200ms -webkit-transform;
   background: white;
   box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0,0,0,0.15);
   color: #333;
@@ -38,35 +37,36 @@
   min-width: 400px;
   padding: 0;
   position: relative;
+  transition: 200ms transform;
 }
 
 /* If the options page is loading don't do the transition. */
 .loading .overlay,
 .loading .overlay .page {
-  -webkit-transition-duration: 0ms !important;
+  transition-duration: 0ms !important;
 }
 
 /* keyframes used to pulse the overlay */
-@-webkit-keyframes pulse {
+@keyframes pulse {
  0% {
-   -webkit-transform: scale(1);
+   transform: scale(1);
  }
  40% {
-   -webkit-transform: scale(1.02);
+   transform: scale(1.02);
   }
  60% {
-   -webkit-transform: scale(1.02);
+   transform: scale(1.02);
   }
  100% {
-   -webkit-transform: scale(1);
+   transform: scale(1);
  }
 }
 
 .overlay .page.pulse {
-  -webkit-animation-duration: 180ms;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-name: pulse;
-  -webkit-animation-timing-function: ease-in-out;
+  animation-duration: 180ms;
+  animation-iteration-count: 1;
+  animation-name: pulse;
+  animation-timing-function: ease-in-out;
 }
 
 .overlay .page > .close-button {

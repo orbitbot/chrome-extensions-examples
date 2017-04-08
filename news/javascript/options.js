@@ -87,13 +87,13 @@ function setCountry() {
  * @param {String} message Message to be shown.
  */
 function showUserMessages(id, timeOut, message) {
-  $(id).style.setProperty('-webkit-transition',
+  $(id).style.setProperty('transition',
       'opacity 0s ease-in');
   $(id).style.opacity = 1;
   $(id).innerText = chrome.i18n.getMessage(message);
   window.setTimeout(function() {
     $(id).style.setProperty(
-        '-webkit-transition', 'opacity' + timeOut + 's ease-in');
+        'transition', 'opacity' + timeOut + 's ease-in');
     $(id).style.opacity = 0;
     }, 1E3
   );

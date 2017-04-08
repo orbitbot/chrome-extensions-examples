@@ -126,7 +126,7 @@ input[type='checkbox']:checked::before {
 }
 
 html[dir='rtl'] input[type='checkbox']:checked::before {
-  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 input[type='radio']:checked::before {
@@ -234,7 +234,7 @@ input:disabled:-webkit-any([type='password'],
          input[type='button'],
          input[type='submit']):not(.custom-appearance):not(.link-button)) {
   /* OVERRIDE */
-  -webkit-transition: border-color 200ms;
+  transition: border-color 200ms;
   /* We use border color because it follows the border radius (unlike outline).
    * This is particularly noticeable on mac. */
   border-color: rgb(77, 144, 254);

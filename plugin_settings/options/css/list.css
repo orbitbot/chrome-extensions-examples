@@ -15,13 +15,13 @@
 
 list > * {
   -webkit-box-align: center;
-  -webkit-transition: .15s background-color;
   box-sizing: border-box;
   border-radius: 0;
   display: -webkit-box;
   height: 32px;
   border: none;
   margin: 0;
+  transition: .15s background-color;
 }
 
 list:not([disabled]) > :hover {
@@ -67,13 +67,13 @@ list .deletable-item > :first-child {
 }
 
 list .close-button {
-  -webkit-transition: .15s opacity;
   background-color: transparent;
   background-image: url("../images/close_bar.png");
   border: none;
   display: block;
   height: 16px;
   opacity: 1;
+  transition: .15s opacity;
   width: 16px;
 }
 
