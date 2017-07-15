@@ -6,7 +6,7 @@ This extension adds an email button to the toolbar which allows you to email the
 
 [Zipfile](http://developer.chrome.com/extensions/examples/extensions/email_this_page.zip)
 
-Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
+Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
 
 Calls
 -----

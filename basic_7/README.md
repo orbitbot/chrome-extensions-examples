@@ -6,7 +6,7 @@ Shows the top sites in a browser action
 
 [Zipfile](http://developer.chrome.com/extensions/examples/api/topsites/basic.zip)
 
-Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
+Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
 
 Calls
 -----

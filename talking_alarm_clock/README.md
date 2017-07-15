@@ -6,7 +6,7 @@ A clock with two configurable alarms that will play a sound and speak a phrase o
 
 [Zipfile](http://developer.chrome.com/extensions/examples/extensions/talking_alarm_clock.zip)
 
-Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
+Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
 
 Calls
 -----

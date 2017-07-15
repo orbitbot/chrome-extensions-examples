@@ -6,7 +6,7 @@ Creates a WiFi Display Session from the captured tab media stream using chrome.d
 
 [Zipfile](http://developer.chrome.com/extensions/examples/api/displaySource/tabCast.zip)
 
-Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
+Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
 
 Calls
 -----
