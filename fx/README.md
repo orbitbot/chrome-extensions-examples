@@ -6,7 +6,7 @@ Enjoy a more magical and immersive experience when browsing the web using the po
 
 [Zipfile](http://developer.chrome.com/extensions/examples/extensions/fx.zip)
 
-Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
+Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
 
 Calls
 -----

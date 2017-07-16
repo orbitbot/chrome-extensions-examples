@@ -6,7 +6,7 @@ Set Chrome-specific proxies; a demonstration of Chrome's Proxy API
 
 [Zipfile](http://developer.chrome.com/extensions/examples/extensions/proxy_configuration.zip)
 
-Content is licensed under the [Google BSD License](http://code.google.com/google_bsd_license.html).
+Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
 
 Calls
 -----
