@@ -1,5 +1,6 @@
 {
   "name": "Content Script Cross-Domain XMLHttpRequest Example",
+  "manifest_version": 2,
   "version": "2.0.0",
   "description": "Demonstrates making cross domain requests from a content script by putting Twitter trends on Google News.",
   "permissions": [
