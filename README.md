@@ -2,6 +2,8 @@
 
 **This is not an official mirror of the Chrome extension examples. Report any issues with the examples themselves to Google's issue trackers/forums.**
 
+**There is an ongoing effort to standardize the Extensions on different browsers, as [discussed on MDN](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) and defined in the [WebExtensions Spec Draft](https://browserext.github.io/browserext/). The resources on [browser support](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) and [incompatibilities](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Chrome_incompatibilities) may be of interest.**
+
 chrome-extensions-examples
 ==========================
 
