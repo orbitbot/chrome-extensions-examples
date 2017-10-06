@@ -58,6 +58,7 @@ Example projects
 * [Download Selected Links](/download_links/)
 * [Download and Open Button](/download_open/)
 * [Downloads Overwrite Existing Files](/downloads_overwrite/)
+* [Drink Water Event Popup](/water_alarm_notification/)
 * [Email this page (by Google)](/email_this_page/)
 * [Event Page Example](/basic_4/)
 * [Event Tracking with Google Analytics](/analytics/)

@@ -7,17 +7,20 @@
 <html>
   <head>
     <title>Getting Started Extension's Popup</title>
-    <style>
+    <style type="text/css">
       body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
+        margin: 10px;
+        white-space: nowrap;
       }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
       }
     </style>
 
@@ -26,12 +29,21 @@
       - Policy documentation[1] for details and explanation.
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-     -->
+    -->
     <script src="popup.js"></script>
   </head>
+
   <body>
-    <div id="status"></div>
-    <img id="image-result" hidden>
+    <h1>Background Color Changer</h1>
+    <div id="container">
+      <span>Choose a color</span>
+      <select id="dropdown">
+        <option selected disabled hidden value=''></option>
+        <option value="white">White</option>
+        <option value="pink">Pink</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </div>
   </body>
 </html>
-
