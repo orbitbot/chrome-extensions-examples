@@ -1,6 +1,6 @@
 {
   "name": "Sample Extension Commands extension",
-  "description": "Press Ctrl+Shift+F (Command+Shift+F on a Mac) to open the browser action popup, press Ctrl+Shift+Y to send an event (Command+Shift+Y on a Mac).",
+  "description": "Press Ctrl+Shift+F to open the browser action popup, press Ctrl+Shift+Y to send an event.",
   "version": "1.0",
   "manifest_version": 2,
   "background": {
@@ -12,7 +12,10 @@
   },
   "commands": {
     "toggle-feature": {
-      "suggested_key": { "default": "Ctrl+Shift+Y" },
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "MacCtrl+Shift+Y"
+       },
       "description": "Send a 'toggle-feature' event to the extension"
     },
     "_execute_browser_action": {
