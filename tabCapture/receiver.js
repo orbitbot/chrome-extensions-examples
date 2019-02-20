@@ -26,13 +26,14 @@ window.addEventListener('load', function() {
   // Start video play-out of the captured audio/video MediaStream once the page
   // has loaded.
   var player = document.getElementById('player');
-  player.addEventListener('canplay', function() {
+  player.addEventListener('playing', function() {
     this.volume = 0.75;
     this.muted = false;
     this.play();
   });
   player.setAttribute('controls', '1');
-  player.src = URL.createObjectURL(window.currentStream);
+  //player.src = URL.createObjectURL(window.currentStream);
+  player.srcObject = window.currentStream;
 
   // Add onended event listeners. This detects when tab capture was shut down by
   // closing the tab being captured.
