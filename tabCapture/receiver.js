@@ -12,7 +12,7 @@ function shutdownReceiver() {
   }
 
   var player = document.getElementById('player');
-  player.srcObject = '';
+  player.src = '';
   var tracks = window.currentStream.getTracks();
   for (var i = 0; i < tracks.length; ++i) {
     tracks[i].stop();
