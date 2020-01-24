@@ -11,8 +11,8 @@ Content is licensed under the [Google BSD License](https://developers.google.com
 Calls
 -----
 
-* [extension.onRequest](https://developer.chrome.com/extensions/extension#event-onRequest)
 * [runtime.onConnect](https://developer.chrome.com/extensions/runtime#event-onConnect)
+* [runtime.onMessage](https://developer.chrome.com/extensions/runtime#event-onMessage)
 * [tabs.connect](https://developer.chrome.com/extensions/tabs#method-connect)
 * [tabs.query](https://developer.chrome.com/extensions/tabs#method-query)
-* [tabs.sendRequest](https://developer.chrome.com/extensions/tabs#method-sendRequest)
+* [tabs.sendMessage](https://developer.chrome.com/extensions/tabs#method-sendMessage)

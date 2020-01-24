@@ -94,7 +94,6 @@ html[dir='rtl'] .overlay .page > .close-button {
 }
 
 .overlay .page h1 {
-  -webkit-padding-end: 24px;
   -webkit-user-select: none;
   color: #333;
   /* 120% of the body's font-size of 84% is 16px. This will keep the relative
@@ -138,8 +137,8 @@ html[dir='rtl'] .overlay .page .action-area {
 }
 
 .overlay .page .button-strip > button {
-  -webkit-margin-start: 10px;
   display: block;
+  margin-inline-start: 10px;
 }
 
 /* On OSX 10.7, hidden scrollbars may prevent the user from realizing that the

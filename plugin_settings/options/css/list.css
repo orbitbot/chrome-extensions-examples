@@ -62,8 +62,8 @@ list .deletable-item {
 list .deletable-item > :first-child {
   -webkit-box-align: center;
   -webkit-box-flex: 1;
-  -webkit-padding-end: 5px;
   display: -webkit-box;
+  padding-inline-end: 5px;
 }
 
 list .close-button {

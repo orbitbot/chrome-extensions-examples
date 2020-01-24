@@ -1,8 +1,6 @@
-/*
-Copyright (c) 2011 The Chromium Authors. All rights reserved.
-Use of this source code is governed by a BSD-style license that can be
-found in the LICENSE file.
-*/
+/* Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
 
 body {
   font-family: Helvetica, sans-serif;
@@ -38,7 +36,7 @@ body {
 
 .plugin-description {
   display: inline-block;
-  -webkit-padding-start: 7px;
+  padding-inline-start: 7px;
   width: auto;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -76,8 +74,8 @@ li.plugin-show-details {
 }
 
 .column-headers {
-  -webkit-margin-start: 17px;
   display: -webkit-box;
+  margin-inline-start: 17px;
 }
 
 .column-headers > div {

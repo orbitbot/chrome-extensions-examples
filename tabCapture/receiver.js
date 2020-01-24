@@ -12,7 +12,7 @@ function shutdownReceiver() {
   }
 
   var player = document.getElementById('player');
-  player.src = '';
+  player.srcObject = null;
   var tracks = window.currentStream.getTracks();
   for (var i = 0; i < tracks.length; ++i) {
     tracks[i].stop();
@@ -32,7 +32,7 @@ window.addEventListener('load', function() {
     this.play();
   });
   player.setAttribute('controls', '1');
-  player.src = URL.createObjectURL(window.currentStream);
+  player.srcObject = window.currentStream;
 
   // Add onended event listeners. This detects when tab capture was shut down by
   // closing the tab being captured.

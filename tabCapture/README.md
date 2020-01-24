@@ -12,4 +12,7 @@ Calls
 -----
 
 * [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
+* [storage.StorageArea.get](https://developer.chrome.com/extensions/storage#method-StorageArea-get)
+* [storage.StorageArea.set](https://developer.chrome.com/extensions/storage#method-StorageArea-set)
 * [tabCapture.capture](https://developer.chrome.com/extensions/tabCapture#method-capture)
+* [tabCapture.getMediaStreamId](https://developer.chrome.com/extensions/tabCapture#method-getMediaStreamId)

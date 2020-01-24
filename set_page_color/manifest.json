@@ -3,7 +3,7 @@
   "description": "Change the current page color",
   "version": "1.0",
   "permissions": [
-    "tabs", "http://*/*", "https://*/*"
+    "activeTab"
   ],
   "browser_action": {
       "default_title": "Set this page's color.",

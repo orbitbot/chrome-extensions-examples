@@ -9,7 +9,7 @@ var milliseconds;
 var curOptions;
 
 function areNewOptions(options) {
-  var properties = ['voiceName', 'lang', 'gender', 'rate', 'pitch', 'volume'];
+  var properties = ['voiceName', 'lang', 'rate', 'pitch', 'volume'];
 
   for (var i = 0; i < properties.length; ++i) {
     if (options[properties[i]] != curOptions[properties[i]]) {
@@ -31,7 +31,6 @@ function appendText(text) {
 function logOptions() {
   getTtsElement("voiceName").innerHTML = curOptions.voiceName;
   getTtsElement("lang").innerHTML = curOptions.lang;
-  getTtsElement("gender").innerHTML = curOptions.gender;
   getTtsElement("rate").innerHTML = curOptions.rate;
   getTtsElement("pitch").innerHTML = curOptions.pitch;
   getTtsElement("volume").innerHTML = curOptions.volume;
