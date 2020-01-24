@@ -3,8 +3,8 @@
  * found in the LICENSE file. */
 
 body.uber-frame {
-  -webkit-margin-start: 155px;
   color: rgb(48, 57, 66);
+  margin-inline-start: 155px;
 }
 
 html[dir='rtl'] body.uber-frame {
@@ -19,7 +19,7 @@ body.uber-frame #extension-settings.page,
 body.uber-frame #mainview-content .page,
 body.uber-frame .subpage-sheet-container .page,
 body.uber-frame > .page {
-  -webkit-margin-end: 24px;
+  margin-inline-end: 24px;
   min-width: 576px;
   padding-bottom: 20px;
   padding-top: 55px;
@@ -31,7 +31,7 @@ body.uber-frame header {
                                             rgba(255, 255, 255, 0.92));
   left: 155px;
   /* <section>s in options currently amount to 638px total, broken up into
-   * 600px max-width + 18px -webkit-padding-start + 20px -webkit-margin-end
+   * 600px max-width + 18px padding-inline-start + 20px margin-inline-end
    * so we mirror this value here so the headers match width and horizontal
    * alignment when scrolling sideways. */
   max-width: 738px;
@@ -78,11 +78,11 @@ body.uber-frame header > h1 {
 /* Create a border under the h1 (but before anything that gets appended
  * to the end of the header). */
 body.uber-frame header > h1::after {
-  -webkit-margin-end: 20px;
   background-color: #eee;
   content: ' ';
   display: block;
   height: 1px;
+  margin-inline-end: 20px;
   position: relative;
   top: 13px;
 }
@@ -99,10 +99,10 @@ body.uber-frame footer {
 /* Sections are used in options pages, help page and history page. This defines
  * the section metrics to match the header metrics above. */
 body.uber-frame section {
-  -webkit-padding-start: 18px;
   margin-bottom: 24px;
   margin-top: 8px;
   max-width: 600px;
+  padding-inline-start: 18px;
 }
 
 body.uber-frame section:last-of-type {
@@ -110,7 +110,7 @@ body.uber-frame section:last-of-type {
 }
 
 body.uber-frame section > h3 {
-  -webkit-margin-start: -18px;
+  margin-inline-start: -18px;
 }
 
 body.uber-frame section > div:only-of-type {

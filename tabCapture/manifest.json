@@ -10,7 +10,12 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
   "permissions": [
+    "storage",
     "tabs",
     "tabCapture"
   ]

@@ -109,21 +109,25 @@ PopupController.prototype = {
     if (removal_start !== undefined) {
       this.button_.setAttribute('disabled', 'disabled');
       this.button_.innerText = 'Clearing...';
-      chrome.browsingData.remove({ "since" : removal_start }, {
-        "appcache": true,
-        "cache": true,
-        "cookies": true,
-        "downloads": true,
-        "fileSystems": true,
-        "formData": true,
-        "history": true,
-        "indexedDB": true,
-        "localStorage": true,
-        "serverBoundCertificates": true,
-        "pluginData": true,
-        "passwords": true,
-        "webSQL": true
-      }, this.handleCallback_.bind(this));
+      chrome.browsingData.remove(
+          {'since': removal_start}, {
+            'appcache': true,
+            'cache': true,
+            'cacheStorage': true,
+            'cookies': true,
+            'downloads': true,
+            'fileSystems': true,
+            'formData': true,
+            'history': true,
+            'indexedDB': true,
+            'localStorage': true,
+            'serverBoundCertificates': true,
+            'serviceWorkers': true,
+            'pluginData': true,
+            'passwords': true,
+            'webSQL': true
+          },
+          this.handleCallback_.bind(this));
     }
   }
 };

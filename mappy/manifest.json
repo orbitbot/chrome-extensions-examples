@@ -1,14 +1,20 @@
 {
   "name": "Mappy",
-  "version": "0.6.1",
+  "version": "1.0",
   "description": "Finds addresses in the web page you're on and pops up a map window.",
   "icons": { "128": "icon.png" },
-  "background": { "scripts": ["background.js"] },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "content_scripts": [
-    { "matches": ["http://*/*"], "js": ["mappy_content_script.js"] }
+    {
+      "matches": ["http://*/*"],
+      "js": ["mappy_content_script.js"]
+    }
   ],
   "permissions": [
-    "tabs",
+    "storage",
     "https://maps.google.com/*",
     "https://maps.googleapis.com/*"
   ],
@@ -18,5 +24,5 @@
       "default_popup": "popup.html"
   },
   "manifest_version": 2,
-  "content_security_policy": "default-src 'none'; style-src 'self'; script-src 'self'; connect-src https://maps.googleapis.com; img-src https://maps.google.com"
+  "content_security_policy": "default-src 'none'; style-src 'self'; script-src 'self'; connect-src https://maps.googleapis.com; img-src https://maps.googleapis.com"
 }

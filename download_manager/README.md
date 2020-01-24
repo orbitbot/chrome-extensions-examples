@@ -15,7 +15,6 @@ Calls
 * [downloads.acceptDanger](https://developer.chrome.com/extensions/downloads#method-acceptDanger)
 * [downloads.cancel](https://developer.chrome.com/extensions/downloads#method-cancel)
 * [downloads.download](https://developer.chrome.com/extensions/downloads#method-download)
-* [downloads.drag](https://developer.chrome.com/extensions/downloads#method-drag)
 * [downloads.erase](https://developer.chrome.com/extensions/downloads#method-erase)
 * [downloads.getFileIcon](https://developer.chrome.com/extensions/downloads#method-getFileIcon)
 * [downloads.onChanged](https://developer.chrome.com/extensions/downloads#event-onChanged)

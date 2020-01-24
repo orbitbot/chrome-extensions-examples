@@ -22,7 +22,6 @@ function showWarning() {
                'and must be removed. A replacement Extension ' +
                'is available.',
       buttons: [{ title: 'Learn More' }],
-      isClickable: true,
       priority: 2,
     }, function() {});
   });

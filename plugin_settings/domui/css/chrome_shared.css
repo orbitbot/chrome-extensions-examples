@@ -1,3 +1,7 @@
+/* Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
 /* Styles common to WebUI pages that share the options pages style */
 body {
   cursor: default;
@@ -13,7 +17,6 @@ a:active {
 }
 
 #navbar-content-title {
-  -webkit-padding-end: 24px;
   -webkit-user-select: none;
   color: #53637d;
   cursor: pointer;
@@ -21,6 +24,7 @@ a:active {
   font-weight: normal;
   margin: 0;
   padding-bottom: 14px;
+  padding-inline-end: 24px;
   padding-top: 13px;
   text-align: end;
   text-shadow: white 0 1px 2px;
@@ -40,9 +44,9 @@ a:active {
 }
 
 #navbar-container {
-  -webkit-border-end: 1px solid #c6c9ce;
   background: -webkit-linear-gradient(rgba(234, 238, 243, 0.2), #eaeef3),
               -webkit-linear-gradient(left, #eaeef3, #eaeef3 97%, #d3d7db);
+  border-inline-end: 1px solid #c6c9ce;
   position: fixed;
   bottom: 0;
   /* We set both left and right for the sake of RTL. */
@@ -78,9 +82,9 @@ html.hide-menu #navbar-container {
   font-size: 105%;
   outline: none;
   padding: 7px 0;
+  padding-inline-end: 24px;
   text-align: end;
   text-shadow: white 0 1px 1px;
-  -webkit-padding-end: 24px;
 }
 
 .navbar-item:focus {
@@ -99,10 +103,10 @@ html.hide-menu #navbar-container {
 
 #mainview {
   -webkit-box-align: stretch;
-  -webkit-padding-start: 216px;
   margin: 0;
   position: absolute;
   left: 0;
+  padding-inline-start: 216px;
   right: 0;
   top: 0;
   bottom: 0;
@@ -110,7 +114,7 @@ html.hide-menu #navbar-container {
 }
 
 html.hide-menu #mainview {
-  -webkit-padding-start: 0;
+  padding-inline-start: 0;
 }
 
 #mainview-content {
@@ -216,8 +220,8 @@ html[dir='rtl'] div.weakrtl input {
 }
 
 html[dir='rtl'] .favicon-cell.weakrtl {
-  -webkit-padding-end: 22px;
-  -webkit-padding-start: 0;
+  padding-inline-end: 22px;
+  padding-inline-start: 0;
 }
 
 /* weakrtl for selection drop downs needs to account for the fact that
@@ -242,7 +246,6 @@ html[dir='rtl'] .weakrtl input::-webkit-input-placeholder {
 }
 
 .page h1 {
-  -webkit-padding-end: 24px;
   -webkit-user-select: none;
   border-bottom: 1px solid #eeeeee;
   color: #53637d;
@@ -250,6 +253,7 @@ html[dir='rtl'] .weakrtl input::-webkit-input-placeholder {
   font-weight: normal;
   margin: 0;
   padding-bottom: 4px;
+  padding-inline-end: 24px;
   padding-top: 13px;
   text-shadow: white 0 1px 2px;
 }

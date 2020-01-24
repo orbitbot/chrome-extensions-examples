@@ -12,4 +12,4 @@ Calls
 -----
 
 * [browserAction.onClicked](https://developer.chrome.com/extensions/browserAction#event-onClicked)
-* [tabs.update](https://developer.chrome.com/extensions/tabs#method-update)
+* [tabs.executeScript](https://developer.chrome.com/extensions/tabs#method-executeScript)

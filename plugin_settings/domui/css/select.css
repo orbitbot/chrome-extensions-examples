@@ -9,8 +9,6 @@ select {
   -webkit-appearance: button;
   -webkit-border-radius: 2px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  -webkit-padding-end: 20px;
-  -webkit-padding-start: 2px;
   -webkit-user-select: none;
   background-image: url("../images/select.png"),
                     -webkit-linear-gradient(#fafafa, #f4f4f4 40%, #e5e5e5);
@@ -22,6 +20,8 @@ select {
   margin: 0;
   overflow: hidden;
   padding-top: 2px;
+  padding-inline-end: 20px;
+  padding-inline-start: 2px;
   padding-bottom: 2px;
   text-overflow: ellipsis;
   white-space: nowrap;
