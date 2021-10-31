@@ -12,6 +12,8 @@ exist as a Git repository, and browsing both the samples page and the VCViewer d
 handy. So, I decided to scrape the content into this repository for easier browsing and (possible)
 editing.
 
+**UPDATE:** Google have posted their own repository for Chrome extensions here: https://github.com/GoogleChrome/chrome-extensions-samples
+
 If you would like to clone a part of this repository, use git
 [sparse checkouts](http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/).
 
